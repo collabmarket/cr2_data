@@ -53,14 +53,14 @@ class Cr2:
         meta = meta.T
         return meta
     
-    def busca(self, pattern):
-        return self.meta.T[self.meta.T.nombre.str.contains(pattern)]
+    def busca(self, pattern, column='nombre'):
+        return self.meta.T[self.meta.T.loc[:,column].str.contains(pattern)]
     
     def plot_simple(self, istation, filename=None, figsize=(10, 7.5)):
         # Plot simple
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
         station = unicode(self.iname[istation].decode('utf8'))
-        titulo = '%s mensual promedio %s'%(self.varname(), station)
+        titulo = '%s mensual %s'%(self.varname(), station)
         plotkarg = dict(title=titulo, ax=ax, style='x')
         self.df.loc[:,istation].dropna().plot(**plotkarg)
         if filename:
