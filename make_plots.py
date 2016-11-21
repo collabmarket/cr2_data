@@ -1,4 +1,21 @@
+import os
 from cr2 import *
+
+def make_folders():
+    root = 'plots'
+    folders = ['prec', 'caud', 'temp', 'tmin', 'tmax']
+    subfolders = ['annual', 'simple', 'month']
+    
+    if not os.path.exists(root):
+        os.mkdir(root)
+    for folder in folders:
+        fold = os.path.join(root, folder)
+        if not os.path.exists(fold):
+            os.mkdir(fold)
+        for subfolder in subfolders:
+            subfold = os.path.join(fold, subfolder)
+            if not os.path.exists(subfold):
+                os.mkdir(subfold)
 
 def plots_prec(prec):
     for istation in prec.df.columns:
@@ -46,6 +63,7 @@ def plots_tmax(tmax):
         tmax.plot_month(istation, filename=filename)
 
 if __name__ == '__main__':
+    make_folders()
     prec = Cr2('p')
     plots_prec(prec)
     caud = Cr2('q')
