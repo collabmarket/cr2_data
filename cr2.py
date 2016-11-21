@@ -93,9 +93,13 @@ class Cr2:
         titulo = '%s anual %s'%(self.varname(), station)
         plotkarg = dict(kind='bar', title=titulo, ax=ax)
         if self.var == 'p':
-            self.df.loc[:,istation].dropna().resample('A').sum().plot(**plotkarg)
+            aux = self.df.loc[:,istation].dropna().resample('A').sum()
+            aux.plot(**plotkarg)
+            ax.axhline(y=aux.mean(), color='r', linestyle='--')
         else:
-            self.df.loc[:,istation].dropna().resample('A').mean().plot(**plotkarg)
+            aux = self.df.loc[:,istation].dropna().resample('A').mean()
+            aux.plot(**plotkarg)
+            ax.axhline(y=aux.mean(), color='r', linestyle='--')
         xtl = [item.get_text()[:4] for item in ax.get_xticklabels()]
         _ = ax.set_xticklabels(xtl)
         if filename:
