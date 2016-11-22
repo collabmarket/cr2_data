@@ -7,3 +7,8 @@
 ### Probar con Mybinder
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/collabmarket/data_cr2)
+
+### Ver Notebooks con Ejemplos
+
+- [Ejemplo 1](http://nbviewer.jupyter.org/github/collabmarket/data_cr2/blob/master/Example1.ipynb)
+
