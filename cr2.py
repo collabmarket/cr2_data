@@ -27,6 +27,9 @@ class Cr2:
                        tmin='Temperatura min')
         return sources[self.var]
     
+    def iname(self, column='nombre'):
+        return dict(zip(self.df.columns.tolist(), self.meta.T.loc[:,column].tolist()))
+    
     def get_df(self):
         # Create meta and df
         df = pd.read_csv(self.source(), skiprows=14, header=None)
@@ -59,7 +62,7 @@ class Cr2:
     def plot_simple(self, istation, filename=None, figsize=(10, 7.5)):
         # Plot simple
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
-        station = unicode(self.iname[istation].decode('utf8'))
+        station = unicode(self.iname()[istation].decode('utf8'))
         titulo = '%s mensual %s'%(self.varname(), station)
         plotkarg = dict(title=titulo, ax=ax, style='x')
         self.df.loc[:,istation].dropna().plot(**plotkarg)
@@ -71,15 +74,22 @@ class Cr2:
     
     def plot_month(self, istation, filename=None, figsize=(10, 7.5)):
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
-        station = unicode(self.iname[istation].decode('utf8'))
+        station = unicode(self.iname()[istation].decode('utf8'))
         titulo = '%s mensual promedio %s'%(self.varname(), station)
         # Lista meses del agno
         months = [pd.datetime(2000, i, 1).strftime('%B') for i in range(1,13)]
-        # Plot prec promedio cada mes
-        plotkarg = dict(kind='bar', title=titulo, ax=ax)
-        aux = self.df.loc[:,istation]
-        aux.groupby(aux.index.month).mean().dropna().plot(**plotkarg)
-        _ = ax.set_xticklabels(months, rotation=45)
+        aux = self.df.loc[:,istation].dropna()
+        aux = aux.groupby(aux.index.month).mean()
+        if self.var in ['p','q']:
+            # Plot promedio cada mes
+            plotkarg = dict(kind='bar', title=titulo, ax=ax)
+            aux.plot(**plotkarg)
+            _ = ax.set_xticklabels(months, rotation=45)
+        else:
+            # Plot promedio cada mes
+            plotkarg = dict(title=titulo, ax=ax, rot=45)
+            aux.index = months
+            aux.plot(**plotkarg)
         if filename:
             fig.savefig('%s'%(filename), bbox_inches='tight')
         else:
@@ -89,7 +99,7 @@ class Cr2:
     def plot_annual(self, istation, filename=None, figsize=(10, 7.5)):
         # Plot prec anual
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
-        station = unicode(self.iname[istation].decode('utf8'))
+        station = unicode(self.iname()[istation].decode('utf8'))
         titulo = '%s anual %s'%(self.varname(), station)
         plotkarg = dict(kind='bar', title=titulo, ax=ax)
         if self.var == 'p':
@@ -107,12 +117,11 @@ class Cr2:
         else:
             plt.show()
         plt.close(fig)
-    
+        
     def __init__(self, var):
         self.var = var
         self.df = self.get_df()
         self.meta = self.get_meta()
-        self.iname = dict(zip(self.df.columns.tolist(), self.meta.T.nombre.tolist()))
 
 if __name__ == '__main__':
     prec = Cr2('p')
