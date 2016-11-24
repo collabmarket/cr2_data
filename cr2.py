@@ -30,6 +30,9 @@ class Cr2:
     def iname(self, column='nombre'):
         return dict(zip(self.df.columns.tolist(), self.meta.T.loc[:,column].tolist()))
     
+    def kname(self, column='nombre'):
+        return dict(zip(self.meta.T.loc[:,column].tolist(), self.df.columns.tolist()))
+    
     def get_df(self):
         # Create meta and df
         df = pd.read_csv(self.source(), skiprows=14, header=None)
@@ -122,6 +125,44 @@ class Cr2:
         self.var = var
         self.df = self.get_df()
         self.meta = self.get_meta()
+
+def plot_climograph(prec, temp, cod_station, filename=None, figsize=(10, 7.5)):
+    try:
+        iprec = prec.kname('codigo_estacion')[cod_station]
+    except KeyError:
+        print("Codigo estacion no se encuentra en %s"%prec.varname())
+        raise
+    try:
+        itemp = temp.kname('codigo_estacion')[cod_station]
+    except KeyError:
+        print("Codigo estacion no se encuentra en %s"%temp.varname())
+        raise
+    if prec.var == 'p' and temp.var == 't':
+        graphtype = 'Climograma'
+    else:
+        graphtype = 'Grafo'
+    station = unicode(prec.iname()[iprec].decode('utf8'))
+    titulo = '%s %s %s'%(cod_station, graphtype, station)
+    months = [pd.datetime(2000, i, 1).strftime('%B') for i in range(1,13)]
+    df = pd.DataFrame()
+    aux = prec.df.loc[:,iprec].dropna()
+    df[prec.var] = aux.groupby(aux.index.month).mean()
+    aux = temp.df.loc[:,itemp].dropna()
+    df[temp.var] = aux.groupby(aux.index.month).mean()
+    df.index = months
+    fig, ax = plt.subplots(facecolor='w', figsize=figsize)
+    ax2 = ax.twinx()
+    plotkarg = dict(color='r', rot=90, title=titulo, ax=ax2)
+    df.loc[:,temp.var].plot(**plotkarg)
+    ax2.set_ylabel(temp.var)
+    df.loc[:,prec.var].plot(kind='bar', ax=ax)
+    ax.set_ylabel(prec.var)
+    if filename:
+        fig.savefig('%s'%(filename), bbox_inches='tight')
+    else:
+        plt.show()
+        plt.close(fig)
+
 
 if __name__ == '__main__':
     prec = Cr2('p')
