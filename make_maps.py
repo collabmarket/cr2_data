@@ -2,8 +2,22 @@
 # -*- coding: utf-8 -*-
 
 import os
-import simplekml
 from cr2 import *
+
+try:
+    import simplekml
+except ImportError, e:
+    if e.message == 'No module named simplekml':
+        print('simplekml not installed, data2kml will not work!')
+    else:
+        raise
+try:
+    import geojson
+except ImportError, e:
+    if e.message == 'No module named geojson':
+        print('geojson not installed, data2geojson will not work!')
+    else:
+        raise
 
 root = 'maps'
 
