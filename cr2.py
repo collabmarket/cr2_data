@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -25,6 +27,14 @@ class Cr2:
                        t='Temperatura', 
                        tmax='Temperatura max', 
                        tmin='Temperatura min')
+        return sources[self.var]
+    
+    def units(self):
+        sources = dict(p=u'(mm)', 
+                       q=u'(m3/s)', 
+                       t=u'(°C)', 
+                       tmax=u'(°C)', 
+                       tmin=u'(°C)')
         return sources[self.var]
     
     def iname(self, column='nombre'):
@@ -69,6 +79,7 @@ class Cr2:
         titulo = '%s mensual %s'%(self.varname(), station)
         plotkarg = dict(title=titulo, ax=ax, style='x')
         self.df.loc[:,istation].dropna().plot(**plotkarg)
+        ax.set_ylabel('%s %s'%(self.var, self.units()))
         if filename:
             fig.savefig('%s'%(filename), bbox_inches='tight')
         else:
@@ -83,16 +94,16 @@ class Cr2:
         months = [pd.datetime(2000, i, 1).strftime('%B') for i in range(1,13)]
         aux = self.df.loc[:,istation].dropna()
         aux = aux.groupby(aux.index.month).mean()
+        aux.index = months
         if self.var in ['p','q']:
             # Plot promedio cada mes
-            plotkarg = dict(kind='bar', title=titulo, ax=ax)
+            plotkarg = dict(kind='bar', title=titulo, rot=45, ax=ax)
             aux.plot(**plotkarg)
-            _ = ax.set_xticklabels(months, rotation=45)
         else:
             # Plot promedio cada mes
-            plotkarg = dict(title=titulo, ax=ax, rot=45)
-            aux.index = months
+            plotkarg = dict(title=titulo, rot=45, ax=ax)
             aux.plot(**plotkarg)
+        ax.set_ylabel('%s %s'%(self.var, self.units()))
         if filename:
             fig.savefig('%s'%(filename), bbox_inches='tight')
         else:
@@ -107,12 +118,11 @@ class Cr2:
         plotkarg = dict(kind='bar', title=titulo, ax=ax)
         if self.var == 'p':
             aux = self.df.loc[:,istation].dropna().resample('A').sum()
-            aux.plot(**plotkarg)
-            ax.axhline(y=aux.mean(), color='r', linestyle='--')
         else:
             aux = self.df.loc[:,istation].dropna().resample('A').mean()
-            aux.plot(**plotkarg)
-            ax.axhline(y=aux.mean(), color='r', linestyle='--')
+        aux.plot(**plotkarg)
+        ax.axhline(y=aux.mean(), color='r', linestyle='--')
+        ax.set_ylabel('%s %s'%(self.var, self.units()))
         xtl = [item.get_text()[:4] for item in ax.get_xticklabels()]
         _ = ax.set_xticklabels(xtl)
         if filename:
@@ -152,11 +162,18 @@ def plot_climograph(prec, temp, cod_station, filename=None, figsize=(10, 7.5)):
     df.index = months
     fig, ax = plt.subplots(facecolor='w', figsize=figsize)
     ax2 = ax.twinx()
-    plotkarg = dict(color='r', rot=90, title=titulo, ax=ax2)
+    plotkarg = dict(kind='bar', rot=90, title=titulo, ax=ax)
+    df.loc[:,prec.var].plot(**plotkarg)
+    plotkarg = dict(color='r', ax=ax2)
     df.loc[:,temp.var].plot(**plotkarg)
-    ax2.set_ylabel(temp.var)
-    df.loc[:,prec.var].plot(kind='bar', ax=ax)
-    ax.set_ylabel(prec.var)
+    # Switch the place of the secondary and axis
+    ax.yaxis.tick_right()
+    ax2.yaxis.tick_left()
+    # Put label on the contrary after switch
+    ax2.set_ylabel('%s %s'%(prec.var, prec.units()))
+    ax2.yaxis.labelpad = 25 # Fixed label position after switch
+    ax.set_ylabel('%s %s'%(temp.var, temp.units()))
+    ax.yaxis.labelpad = 25 # Fixed label position after switch
     if filename:
         fig.savefig('%s'%(filename), bbox_inches='tight')
     else:
