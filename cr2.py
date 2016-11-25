@@ -1,12 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
 import pandas as pd
 import matplotlib.pyplot as plt
-
-try:
-    get_ipython().magic(u'matplotlib inline')
-except NameError:
-    print "IPython console not available."
 
 class Cr2:
     '''
@@ -84,7 +80,7 @@ class Cr2:
             fig.savefig('%s'%(filename), bbox_inches='tight')
         else:
             plt.show()
-        plt.close(fig)
+        plt.close(fig) # Fix Warning: More than 20 figures have been opened
     
     def plot_month(self, istation, filename=None, figsize=(10, 7.5)):
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
@@ -108,7 +104,7 @@ class Cr2:
             fig.savefig('%s'%(filename), bbox_inches='tight')
         else:
             plt.show()
-        plt.close(fig)
+        plt.close(fig) # Fix Warning: More than 20 figures have been opened
     
     def plot_annual(self, istation, filename=None, figsize=(10, 7.5)):
         # Plot prec anual
@@ -129,7 +125,7 @@ class Cr2:
             fig.savefig('%s'%(filename), bbox_inches='tight')
         else:
             plt.show()
-        plt.close(fig)
+        plt.close(fig) # Fix Warning: More than 20 figures have been opened
         
     def __init__(self, var):
         self.var = var
@@ -178,10 +174,14 @@ def plot_climograph(prec, temp, cod_station, filename=None, figsize=(10, 7.5)):
         fig.savefig('%s'%(filename), bbox_inches='tight')
     else:
         plt.show()
-        plt.close(fig)
+    plt.close(fig) # Fix Warning: More than 20 figures have been opened
 
 
 if __name__ == '__main__':
+    try:
+        get_ipython().magic(u'matplotlib inline')
+    except NameError:
+        print "IPython console not available."
     prec = Cr2('p')
     caud = Cr2('q')
     temp = Cr2('t')
