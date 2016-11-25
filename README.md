@@ -12,4 +12,4 @@
 
 - [Ejemplo 1](http://nbviewer.jupyter.org/github/collabmarket/data_cr2/blob/master/Example1.ipynb)
 - [Ejemplo 2](http://nbviewer.jupyter.org/github/collabmarket/data_cr2/blob/master/Example2.ipynb)
-
+- [Ejemplo 3](http://nbviewer.jupyter.org/github/collabmarket/data_cr2/blob/master/Example3.ipynb)
