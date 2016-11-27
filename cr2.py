@@ -10,11 +10,11 @@ class Cr2:
     t='Temperatura', tmax='Temperatura max', tmin='Temperatura min'
     '''
     def source(self):
-        sources = dict(p='data/cr2_prAmon_2016/cr2_prAmon_2016.txt', 
-                       q='data/cr2_qflxAmon_2016/cr2_qflxAmon_2016.txt', 
-                       t='data/cr2_tasAmon_2016/cr2_tasAmon_2016.txt', 
-                       tmax='data/cr2_tasmaxAmon_2016/cr2_tasmaxAmon_2016.txt', 
-                       tmin='data/cr2_tasminAmon_2016/cr2_tasminAmon_2016.txt')
+        sources = dict(p='data/monthly/cr2_prAmon_2016/cr2_prAmon_2016.txt', 
+                       q='data/monthly/cr2_qflxAmon_2016/cr2_qflxAmon_2016.txt', 
+                       t='data/monthly/cr2_tasAmon_2016/cr2_tasAmon_2016.txt', 
+                       tmax='data/monthly/cr2_tasmaxAmon_2016/cr2_tasmaxAmon_2016.txt', 
+                       tmin='data/monthly/cr2_tasminAmon_2016/cr2_tasminAmon_2016.txt')
         return sources[self.var]
     
     def varname(self):

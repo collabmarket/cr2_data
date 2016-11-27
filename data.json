@@ -1,0 +1,78 @@
+{
+    "data": {
+        "daily": [
+            {
+                "filename": "cr2_prDaily_2016", 
+                "units": "(mm)", 
+                "url": "http://www.cr2.cl/download/cr2_prdaily_2016-zip/?wpdmdl=10320", 
+                "var": "p", 
+                "varname": "Precipitación"
+            }, 
+            {
+                "filename": "cr2_qflxDaily_2016", 
+                "units": "(m3/s)", 
+                "url": "http://www.cr2.cl/download/cr2_qflxdaily_2016-zip/?wpdmdl=10321", 
+                "var": "q", 
+                "varname": "Caudal"
+            }, 
+            {
+                "filename": "cr2_tasDaily_2016", 
+                "units": "(°C)", 
+                "url": "http://www.cr2.cl/download/cr2_tasdaily_2016-zip/?wpdmdl=10322", 
+                "var": "t", 
+                "varname": "Temperatura"
+            }, 
+            {
+                "filename": "cr2_tasmaxDaily_2016", 
+                "units": "(°C)", 
+                "url": "http://www.cr2.cl/download/cr2_tasmaxdaily_2016-zip/?wpdmdl=10323", 
+                "var": "tmax", 
+                "varname": "Temperatura max"
+            }, 
+            {
+                "filename": "cr2_tasminDaily_2016", 
+                "units": "(°C)", 
+                "url": "http://www.cr2.cl/download/cr2_tasmindaily_2016-zip/?wpdmdl=10324", 
+                "var": "tmin", 
+                "varname": "Temperatura min"
+            }
+        ], 
+        "monthly": [
+            {
+                "filename": "cr2_prAmon_2016", 
+                "units": "(mm)", 
+                "url": "http://www.cr2.cl/download/cr2_pramon_2016-zip/?wpdmdl=10319", 
+                "var": "p", 
+                "varname": "Precipitación"
+            }, 
+            {
+                "filename": "cr2_qflxAmon_2016", 
+                "units": "(m3/s)", 
+                "url": "http://www.cr2.cl/download/cr2_qflxamon_2016-zip/?wpdmdl=10005", 
+                "var": "q", 
+                "varname": "Caudal"
+            }, 
+            {
+                "filename": "cr2_tasAmon_2016", 
+                "units": "(°C)", 
+                "url": "http://www.cr2.cl/download/cr2_tasamon_2016-zip/?wpdmdl=10048", 
+                "var": "t", 
+                "varname": "Temperatura"
+            }, 
+            {
+                "filename": "cr2_tasmaxAmon_2016", 
+                "units": "(°C)", 
+                "url": "http://www.cr2.cl/download/cr2_tasmaxamon_2016-zip/?wpdmdl=10056", 
+                "var": "tmax", 
+                "varname": "Temperatura max"
+            }, 
+            {
+                "filename": "cr2_tasminAmon_2016", 
+                "units": "(°C)", 
+                "url": "http://www.cr2.cl/download/cr2_tasminamon_2016-zip/?wpdmdl=10054", 
+                "var": "tmin", 
+                "varname": "Temperatura min"
+            }
+        ]
+    }
+}
