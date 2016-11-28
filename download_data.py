@@ -3,14 +3,11 @@ import json
 import urllib
 import zipfile
 
-source_file = 'data.json'
-tmp = 'tmp'
-
 def open_sources(filename):
     with open(filename) as data_file:
         return json.load(data_file)
 
-def make_tmp():
+def make_tmp(tmp):
     if not os.path.exists(tmp):
         os.mkdir(tmp)
 
@@ -43,8 +40,8 @@ def extractfiles(period, sources):
 
 
 if __name__ == '__main__':
-    make_tmp()
-    sources = open_sources(source_file)
+    make_tmp('tmp')
+    sources = open_sources('data.json')
     make_folders(sources)
     download('monthly', sources)
     download('daily', sources)

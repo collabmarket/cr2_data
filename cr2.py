@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+import os
+import json
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -9,29 +11,27 @@ class Cr2:
     p='Precipitacion', q='Caudal',
     t='Temperatura', tmax='Temperatura max', tmin='Temperatura min'
     '''
-    def source(self):
-        sources = dict(p='data/monthly/cr2_prAmon_2016/cr2_prAmon_2016.txt', 
-                       q='data/monthly/cr2_qflxAmon_2016/cr2_qflxAmon_2016.txt', 
-                       t='data/monthly/cr2_tasAmon_2016/cr2_tasAmon_2016.txt', 
-                       tmax='data/monthly/cr2_tasmaxAmon_2016/cr2_tasmaxAmon_2016.txt', 
-                       tmin='data/monthly/cr2_tasminAmon_2016/cr2_tasminAmon_2016.txt')
-        return sources[self.var]
-    
-    def varname(self):
-        sources = dict(p='Precipitacion', 
-                       q='Caudal', 
-                       t='Temperatura', 
-                       tmax='Temperatura max', 
-                       tmin='Temperatura min')
-        return sources[self.var]
-    
-    def units(self):
-        sources = dict(p=u'(mm)', 
-                       q=u'(m3/s)', 
-                       t=u'(°C)', 
-                       tmax=u'(°C)', 
-                       tmin=u'(°C)')
-        return sources[self.var]
+    def __init__(self, period, var, sourcefile):
+        sources = self.open_sources(sourcefile, period, var)
+        self.var = sources['var']
+        self.varname = sources['varname']
+        self.filename = sources['filename']
+        self.units = sources['units']
+        self.df = self.get_df(sources['filename'])
+        self.meta = self.get_meta(sources['filename'])
+
+    def open_sources(self, sourcefile, period, var):
+        with open(sourcefile) as data_file:
+            sources = json.load(data_file)
+        root = sources.keys().pop()
+        items = sources[root][period]
+        for item in items:
+            if item['var'] == var:
+                item['filename'] = os.path.join(root, 
+                                                period, 
+                                                item['filename'], 
+                                                item['filename']+'.txt')
+                return item
     
     def iname(self, column='nombre'):
         return dict(zip(self.df.columns.tolist(), self.meta.T.loc[:,column].tolist()))
@@ -39,21 +39,21 @@ class Cr2:
     def kname(self, column='nombre'):
         return dict(zip(self.meta.T.loc[:,column].tolist(), self.df.columns.tolist()))
     
-    def get_df(self):
+    def get_df(self, filename):
         # Create meta and df
-        df = pd.read_csv(self.source(), skiprows=14, header=None)
+        df = pd.read_csv(filename, skiprows=14, header=None)
         
         # Curate df
         df.set_index(0, inplace=True)
         df.index = pd.to_datetime(df.index)
         df.replace(-9999.0, pd.np.nan, inplace=True)
         df.columns.name = df.index.name
-        df.index.name = 'date'
+        df.index.name = 'Date'
         return df
     
-    def get_meta(self):
+    def get_meta(self, filename):
         # Create meta and df
-        meta = pd.read_csv(self.source(), nrows=14, header=None)
+        meta = pd.read_csv(filename, nrows=14, header=None)
         # Curate meta
         meta = meta.T
         meta.columns = meta.iloc[0]
@@ -72,10 +72,10 @@ class Cr2:
         # Plot simple
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
         station = unicode(self.iname()[istation].decode('utf8'))
-        titulo = '%s mensual %s'%(self.varname(), station)
+        titulo = '%s  %s'%(self.varname, station)
         plotkarg = dict(title=titulo, ax=ax, style='x')
         self.df.loc[:,istation].dropna().plot(**plotkarg)
-        ax.set_ylabel('%s %s'%(self.var, self.units()))
+        ax.set_ylabel('%s %s'%(self.var, self.units))
         if filename:
             fig.savefig('%s'%(filename), bbox_inches='tight')
         else:
@@ -85,7 +85,7 @@ class Cr2:
     def plot_month(self, istation, filename=None, figsize=(10, 7.5)):
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
         station = unicode(self.iname()[istation].decode('utf8'))
-        titulo = '%s mensual promedio %s'%(self.varname(), station)
+        titulo = '%s mensual promedio %s'%(self.varname, station)
         # Lista meses del agno
         months = [pd.datetime(2000, i, 1).strftime('%B') for i in range(1,13)]
         aux = self.df.loc[:,istation].dropna()
@@ -99,7 +99,7 @@ class Cr2:
             # Plot promedio cada mes
             plotkarg = dict(title=titulo, rot=45, ax=ax)
             aux.plot(**plotkarg)
-        ax.set_ylabel('%s %s'%(self.var, self.units()))
+        ax.set_ylabel('%s %s'%(self.var, self.units))
         if filename:
             fig.savefig('%s'%(filename), bbox_inches='tight')
         else:
@@ -110,7 +110,7 @@ class Cr2:
         # Plot prec anual
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
         station = unicode(self.iname()[istation].decode('utf8'))
-        titulo = '%s anual %s'%(self.varname(), station)
+        titulo = '%s anual %s'%(self.varname, station)
         plotkarg = dict(kind='bar', title=titulo, ax=ax)
         if self.var == 'p':
             aux = self.df.loc[:,istation].dropna().resample('A').sum()
@@ -118,7 +118,7 @@ class Cr2:
             aux = self.df.loc[:,istation].dropna().resample('A').mean()
         aux.plot(**plotkarg)
         ax.axhline(y=aux.mean(), color='r', linestyle='--')
-        ax.set_ylabel('%s %s'%(self.var, self.units()))
+        ax.set_ylabel('%s %s'%(self.var, self.units))
         xtl = [item.get_text()[:4] for item in ax.get_xticklabels()]
         _ = ax.set_xticklabels(xtl)
         if filename:
@@ -127,21 +127,17 @@ class Cr2:
             plt.show()
         plt.close(fig) # Fix Warning: More than 20 figures have been opened
         
-    def __init__(self, var):
-        self.var = var
-        self.df = self.get_df()
-        self.meta = self.get_meta()
 
 def plot_climograph(prec, temp, cod_station, filename=None, figsize=(10, 7.5)):
     try:
         iprec = prec.kname('codigo_estacion')[cod_station]
     except KeyError:
-        print("Codigo estacion no se encuentra en %s"%prec.varname())
+        print("Codigo estacion no se encuentra en %s"%prec.varname)
         raise
     try:
         itemp = temp.kname('codigo_estacion')[cod_station]
     except KeyError:
-        print("Codigo estacion no se encuentra en %s"%temp.varname())
+        print("Codigo estacion no se encuentra en %s"%temp.varname)
         raise
     if prec.var == 'p' and temp.var == 't':
         graphtype = 'Climograma'
@@ -166,9 +162,9 @@ def plot_climograph(prec, temp, cod_station, filename=None, figsize=(10, 7.5)):
     ax.yaxis.tick_right()
     ax2.yaxis.tick_left()
     # Put label on the contrary after switch
-    ax2.set_ylabel('%s %s'%(prec.var, prec.units()))
+    ax2.set_ylabel('%s %s'%(prec.var, prec.units))
     ax2.yaxis.labelpad = 25 # Fixed label position after switch
-    ax.set_ylabel('%s %s'%(temp.var, temp.units()))
+    ax.set_ylabel('%s %s'%(temp.var, temp.units))
     ax.yaxis.labelpad = 25 # Fixed label position after switch
     if filename:
         fig.savefig('%s'%(filename), bbox_inches='tight')
@@ -182,8 +178,8 @@ if __name__ == '__main__':
         get_ipython().magic(u'matplotlib inline')
     except NameError:
         print "IPython console not available."
-    prec = Cr2('p')
-    caud = Cr2('q')
-    temp = Cr2('t')
-    tmin = Cr2('tmin')
-    tmax = Cr2('tmax')
+    prec = Cr2('monthly', 'p', 'data.json')
+    caud = Cr2('monthly', 'q', 'data.json')
+    temp = Cr2('monthly', 't', 'data.json')
+    tmin = Cr2('monthly', 'tmin', 'data.json')
+    tmax = Cr2('monthly', 'tmax', 'data.json')

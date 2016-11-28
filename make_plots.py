@@ -64,13 +64,13 @@ def plots_tmax(tmax):
 
 if __name__ == '__main__':
     make_folders()
-    prec = Cr2('p')
+    prec = Cr2('monthly', 'p', 'data.json')
     plots_prec(prec)
-    caud = Cr2('q')
+    caud = Cr2('monthly', 'q', 'data.json')
     plots_caud(caud)
-    temp = Cr2('t')
+    temp = Cr2('monthly', 't', 'data.json')
     plots_temp(temp)
-    tmin = Cr2('tmin')
+    tmin = Cr2('monthly', 'tmin', 'data.json')
     plots_tmin(tmin)
-    tmax = Cr2('tmax')
+    tmax = Cr2('monthly', 'tmax', 'data.json')
     plots_tmax(tmax)
