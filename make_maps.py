@@ -2,19 +2,20 @@
 # -*- coding: utf-8 -*-
 
 import os
+import json
 from cr2 import *
 
 try:
     import simplekml
 except ImportError, e:
-    if e.message == 'No module named simplekml':
+    if str(e) == 'No module named simplekml':
         print('simplekml not installed, data2kml will not work!')
     else:
         raise
 try:
     import geojson
 except ImportError, e:
-    if e.message == 'No module named geojson':
+    if str(e) == 'No module named geojson':
         print('geojson not installed, data2geojson will not work!')
     else:
         raise
@@ -34,15 +35,32 @@ def data2kml(variable):
             coords=[( X["longitud"], X["latitud"], X["altura"])]) , axis=1)
     kml.save(path=filename)
 
+def data2geojson(variable):
+    filename = os.path.join(root, 'stations-%s.geojson'%variable.var)
+    points = []
+    variable.meta.T.apply(
+                          lambda X: points.append( (float(X["longitud"]), 
+                                                    float(X["latitud"])
+                                                   )
+                                                 ) 
+                         , axis=1)
+    with open(filename, 'w') as fp:
+        geojson.dump(geojson.MultiPoint(points), fp, sort_keys=True)
+
 if __name__ == '__main__':
     make_folders()
-    prec = Cr2('p')
+    prec = Cr2('monthly', 'p', 'data.json')
+    caud = Cr2('monthly', 'q', 'data.json')
+    temp = Cr2('monthly', 't', 'data.json')
+    tmin = Cr2('monthly', 'tmin', 'data.json')
+    tmax = Cr2('monthly', 'tmax', 'data.json')
     data2kml(prec)
-    caud = Cr2('q')
     data2kml(caud)
-    temp = Cr2('t')
     data2kml(temp)
-    tmin = Cr2('tmin')
     data2kml(tmin)
-    tmax = Cr2('tmax')
     data2kml(tmax)
+    data2geojson(prec)
+    data2geojson(caud)
+    data2geojson(temp)
+    data2geojson(tmin)
+    data2geojson(tmax)
