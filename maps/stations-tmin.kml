@@ -1,2033 +1,2033 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="feat_18284">
-        <Placemark id="feat_18285">
+    <Document id="feat_2170">
+        <Placemark id="feat_2171">
             <name>01201005</name>
             <description>Rio Caracarani En Humapalca</description>
-            <Point id="geom_18266">
+            <Point id="geom_2166">
                 <coordinates>-69.6994,-17.8428,3908</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18286">
+        <Placemark id="feat_2172">
             <name>01001005</name>
             <description>Caquena</description>
-            <Point id="geom_18267">
+            <Point id="geom_2167">
                 <coordinates>-69.2017,-18.0542,4400</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18287">
+        <Placemark id="feat_2173">
             <name>01202009</name>
             <description>Pacollo</description>
-            <Point id="geom_18268">
+            <Point id="geom_2168">
                 <coordinates>-69.5092,-18.1769,4185</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18288">
+        <Placemark id="feat_2174">
             <name>01202012</name>
             <description>Putre (Dcp)</description>
-            <Point id="geom_18269">
+            <Point id="geom_2169">
                 <coordinates>-69.5589,-18.195,3560</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18289">
+        <Placemark id="feat_2175">
             <name>01202010</name>
             <description>Putre</description>
-            <Point id="geom_18270">
+            <Point id="geom_2170">
                 <coordinates>-69.5603,-18.1992,3545</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18290">
+        <Placemark id="feat_2176">
             <name>01020017</name>
             <description>Parinacota Ex Endesa</description>
-            <Point id="geom_18271">
+            <Point id="geom_2171">
                 <coordinates>-69.2683,-18.2042,4420</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18291">
+        <Placemark id="feat_2177">
             <name>01020018</name>
             <description>Chucuyo (Ex. Endesa)</description>
-            <Point id="geom_18272">
+            <Point id="geom_2172">
                 <coordinates>-69.3214,-18.2181,4400</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18292">
+        <Placemark id="feat_2178">
             <name>01010010</name>
             <description>Chungara Ajata</description>
-            <Point id="geom_18273">
+            <Point id="geom_2173">
                 <coordinates>-69.1833,-18.2353,4585</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18293">
+        <Placemark id="feat_2179">
             <name>01300004</name>
             <description>Murmuntane</description>
-            <Point id="geom_18274">
+            <Point id="geom_2174">
                 <coordinates>-69.5519,-18.3519,3550</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18294">
+        <Placemark id="feat_2180">
             <name>01211006</name>
             <description>Lluta</description>
-            <Point id="geom_18275">
+            <Point id="geom_2175">
                 <coordinates>-70.1692,-18.4103,290</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18295">
+        <Placemark id="feat_2181">
             <name>01310018</name>
             <description>Arica Oficina</description>
-            <Point id="geom_18276">
+            <Point id="geom_2176">
                 <coordinates>-70.3208,-18.4775,20</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18296">
+        <Placemark id="feat_2182">
             <name>01310021</name>
             <description>U. Del Norte</description>
-            <Point id="geom_18277">
+            <Point id="geom_2177">
                 <coordinates>-70.2936,-18.4833,55</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18297">
+        <Placemark id="feat_2183">
             <name>01021007</name>
             <description>Guallatire</description>
-            <Point id="geom_18278">
+            <Point id="geom_2178">
                 <coordinates>-69.1547,-18.4983,4240</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18298">
+        <Placemark id="feat_2184">
             <name>01310022</name>
             <description>El Buitre Aerodromo</description>
-            <Point id="geom_18279">
+            <Point id="geom_2179">
                 <coordinates>-70.2842,-18.5119,110</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18299">
+        <Placemark id="feat_2185">
             <name>01310019</name>
             <description>Azapa</description>
-            <Point id="geom_18280">
+            <Point id="geom_2180">
                 <coordinates>-70.1806,-18.5156,365</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18300">
+        <Placemark id="feat_2186">
             <name>01310020</name>
             <description>La Rivera</description>
-            <Point id="geom_18281">
+            <Point id="geom_2181">
                 <coordinates>-70.1642,-18.5283,310</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18301">
+        <Placemark id="feat_2187">
             <name>01030003</name>
             <description>Chilcaya</description>
-            <Point id="geom_18282">
+            <Point id="geom_2182">
                 <coordinates>-69.0844,-18.7939,4270</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18302">
+        <Placemark id="feat_2188">
             <name>01410011</name>
             <description>Chaca</description>
-            <Point id="geom_18283">
+            <Point id="geom_2183">
                 <coordinates>-70.15,-18.8169,350</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18303">
+        <Placemark id="feat_2189">
             <name>01410012</name>
             <description>Codpa</description>
-            <Point id="geom_18284">
+            <Point id="geom_2184">
                 <coordinates>-69.7439,-18.8322,1870</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18304">
+        <Placemark id="feat_2190">
             <name>01502006</name>
             <description>Cuya</description>
-            <Point id="geom_18285">
+            <Point id="geom_2185">
                 <coordinates>-70.1269,-19.1117,200</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18305">
+        <Placemark id="feat_2191">
             <name>01041003</name>
             <description>Colchane (T. Isluga)</description>
-            <Point id="geom_18286">
+            <Point id="geom_2186">
                 <coordinates>-68.6378,-19.2764,3700</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18306">
+        <Placemark id="feat_2192">
             <name>01730018</name>
             <description>Lagunillas (Pampa Lirima)</description>
-            <Point id="geom_18287">
+            <Point id="geom_2187">
                 <coordinates>-68.8369,-19.9333,4020</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18307">
+        <Placemark id="feat_2193">
             <name>01050007</name>
             <description>Coyacagua</description>
-            <Point id="geom_18288">
+            <Point id="geom_2188">
                 <coordinates>-68.8075,-20.0531,4013</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18308">
+        <Placemark id="feat_2194">
             <name>01740002</name>
             <description>Cerro Colorado</description>
-            <Point id="geom_18289">
+            <Point id="geom_2189">
                 <coordinates>-69.2703,-20.065,2510</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18309">
+        <Placemark id="feat_2195">
             <name>01700010</name>
             <description>Huara En Fuerte Baquedano</description>
-            <Point id="geom_18290">
+            <Point id="geom_2190">
                 <coordinates>-69.7497,-20.1308,1100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18310">
+        <Placemark id="feat_2196">
             <name>01051003</name>
             <description>Salar Huasco</description>
-            <Point id="geom_18291">
+            <Point id="geom_2191">
                 <coordinates>-68.8861,-20.2761,3800</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18311">
+        <Placemark id="feat_2197">
             <name>01700008</name>
             <description>Esmeralda</description>
-            <Point id="geom_18292">
+            <Point id="geom_2192">
                 <coordinates>-69.3814,-20.4842,1115</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18312">
+        <Placemark id="feat_2198">
             <name>01700009</name>
             <description>Coposa</description>
-            <Point id="geom_18293">
+            <Point id="geom_2193">
                 <coordinates>-68.6942,-20.7086,3760</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18313">
+        <Placemark id="feat_2199">
             <name>02113005</name>
             <description>Guatacondo Dga</description>
-            <Point id="geom_18294">
+            <Point id="geom_2194">
                 <coordinates>-69.0456,-20.9272,2460</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18314">
+        <Placemark id="feat_2200">
             <name>01080001</name>
             <description>Ujina</description>
-            <Point id="geom_18295">
+            <Point id="geom_2195">
                 <coordinates>-68.6275,-20.9714,4300</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18315">
+        <Placemark id="feat_2201">
             <name>02000001</name>
             <description>Ollague</description>
-            <Point id="geom_18296">
+            <Point id="geom_2196">
                 <coordinates>-68.2494,-21.2233,3700</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18316">
+        <Placemark id="feat_2202">
             <name>02020001</name>
             <description>Cebollar</description>
-            <Point id="geom_18297">
+            <Point id="geom_2197">
                 <coordinates>-68.3386,-21.5311,3730</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18317">
+        <Placemark id="feat_2203">
             <name>02101003</name>
             <description>Lequena</description>
-            <Point id="geom_18298">
+            <Point id="geom_2198">
                 <coordinates>-68.6611,-21.6553,3320</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18318">
+        <Placemark id="feat_2204">
             <name>02112008</name>
             <description>Quillagua</description>
-            <Point id="geom_18299">
+            <Point id="geom_2199">
                 <coordinates>-69.5358,-21.6603,802</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18319">
+        <Placemark id="feat_2205">
             <name>02020002</name>
             <description>Ascotan</description>
-            <Point id="geom_18300">
+            <Point id="geom_2200">
                 <coordinates>-68.2756,-21.7253,3970</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18320">
+        <Placemark id="feat_2206">
             <name>02103008</name>
             <description>Parshall N 2</description>
-            <Point id="geom_18301">
+            <Point id="geom_2201">
                 <coordinates>-68.5175,-21.9428,3318</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18321">
+        <Placemark id="feat_2207">
             <name>02103009</name>
             <description>Ojos San Pedro</description>
-            <Point id="geom_18302">
+            <Point id="geom_2202">
                 <coordinates>-68.3128,-21.9706,3800</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18322">
+        <Placemark id="feat_2208">
             <name>02104008</name>
             <description>Conchi Embalse</description>
-            <Point id="geom_18303">
+            <Point id="geom_2203">
                 <coordinates>-68.6242,-22.025,3010</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18323">
+        <Placemark id="feat_2209">
             <name>02104009</name>
             <description>Conchi Muro Embalse</description>
-            <Point id="geom_18304">
+            <Point id="geom_2204">
                 <coordinates>-68.6208,-22.0267,3000</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18324">
+        <Placemark id="feat_2210">
             <name>02103010</name>
             <description>Inacaliri</description>
-            <Point id="geom_18305">
+            <Point id="geom_2205">
                 <coordinates>-68.0661,-22.0278,4040</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18325">
+        <Placemark id="feat_2211">
             <name>02105016</name>
             <description>Linzor</description>
-            <Point id="geom_18306">
+            <Point id="geom_2206">
                 <coordinates>-68.0228,-22.2297,4100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18326">
+        <Placemark id="feat_2212">
             <name>02105015</name>
             <description>Turi</description>
-            <Point id="geom_18307">
+            <Point id="geom_2207">
                 <coordinates>-68.2881,-22.2408,3070</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18327">
+        <Placemark id="feat_2213">
             <name>02105017</name>
             <description>Toconce</description>
-            <Point id="geom_18308">
+            <Point id="geom_2208">
                 <coordinates>-68.1733,-22.2592,3310</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18328">
+        <Placemark id="feat_2214">
             <name>02105018</name>
             <description>Ayquina</description>
-            <Point id="geom_18309">
+            <Point id="geom_2209">
                 <coordinates>-68.3183,-22.2753,3031</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18329">
+        <Placemark id="feat_2215">
             <name>02105020</name>
             <description>Salado Embalse</description>
-            <Point id="geom_18310">
+            <Point id="geom_2210">
                 <coordinates>-68.2028,-22.2856,3200</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18330">
+        <Placemark id="feat_2216">
             <name>02105021</name>
             <description>Caspana</description>
-            <Point id="geom_18311">
+            <Point id="geom_2211">
                 <coordinates>-68.2122,-22.3367,3260</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18331">
+        <Placemark id="feat_2217">
             <name>02104010</name>
             <description>Chiu-Chiu</description>
-            <Point id="geom_18312">
+            <Point id="geom_2212">
                 <coordinates>-68.6367,-22.3378,2524</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18332">
+        <Placemark id="feat_2218">
             <name>02105022</name>
             <description>El Tatio</description>
-            <Point id="geom_18313">
+            <Point id="geom_2213">
                 <coordinates>-68.0133,-22.3711,4370</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18333">
+        <Placemark id="feat_2219">
             <name>02112009</name>
             <description>Coya Sur</description>
-            <Point id="geom_18314">
+            <Point id="geom_2214">
                 <coordinates>-69.6225,-22.3939,1250</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18334">
+        <Placemark id="feat_2220">
             <name>02110013</name>
             <description>Calama</description>
-            <Point id="geom_18315">
+            <Point id="geom_2215">
                 <coordinates>-68.9044,-22.4494,2300</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18335">
+        <Placemark id="feat_2221">
             <name>02700001</name>
             <description>Sierra Gorda</description>
-            <Point id="geom_18316">
+            <Point id="geom_2216">
                 <coordinates>-69.3219,-22.8892,1616</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18336">
+        <Placemark id="feat_2222">
             <name>02510006</name>
             <description>San Pedro De Atacama</description>
-            <Point id="geom_18317">
+            <Point id="geom_2217">
                 <coordinates>-68.2003,-22.9053,2450</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18337">
+        <Placemark id="feat_2223">
             <name>02500016</name>
             <description>Toconao Experimental</description>
-            <Point id="geom_18318">
+            <Point id="geom_2218">
                 <coordinates>-67.9978,-23.1889,2500</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18338">
+        <Placemark id="feat_2224">
             <name>02710002</name>
             <description>Baquedano</description>
-            <Point id="geom_18319">
+            <Point id="geom_2219">
                 <coordinates>-69.8397,-23.3336,1032</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18339">
+        <Placemark id="feat_2225">
             <name>02500019</name>
             <description>Socaire</description>
-            <Point id="geom_18320">
+            <Point id="geom_2220">
                 <coordinates>-67.8925,-23.5869,3251</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18340">
+        <Placemark id="feat_2226">
             <name>02710003</name>
             <description>Antofagasta</description>
-            <Point id="geom_18321">
+            <Point id="geom_2221">
                 <coordinates>-70.3867,-23.5975,50</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18341">
+        <Placemark id="feat_2227">
             <name>02500020</name>
             <description>Peine</description>
-            <Point id="geom_18322">
+            <Point id="geom_2222">
                 <coordinates>-68.0581,-23.6842,2460</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18342">
+        <Placemark id="feat_2228">
             <name>02660001</name>
             <description>Monturaqui</description>
-            <Point id="geom_18323">
+            <Point id="geom_2223">
                 <coordinates>-68.4353,-24.3414,3430</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18343">
+        <Placemark id="feat_2229">
             <name>02942001</name>
             <description>Aguas Verdes</description>
-            <Point id="geom_18324">
+            <Point id="geom_2224">
                 <coordinates>-69.9633,-25.4,1560</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18344">
+        <Placemark id="feat_2230">
             <name>03450004</name>
             <description>Copiapo</description>
-            <Point id="geom_18325">
+            <Point id="geom_2225">
                 <coordinates>-70.3308,-27.3772,385</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18345">
+        <Placemark id="feat_2231">
             <name>03430007</name>
             <description>Los Loros</description>
-            <Point id="geom_18326">
+            <Point id="geom_2226">
                 <coordinates>-70.1119,-27.8317,940</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18346">
+        <Placemark id="feat_2232">
             <name>03430006</name>
             <description>Lautaro Embalse</description>
-            <Point id="geom_18327">
+            <Point id="geom_2227">
                 <coordinates>-70.0033,-27.9783,1110</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18347">
+        <Placemark id="feat_2233">
             <name>03701001</name>
             <description>Canto De Agua</description>
-            <Point id="geom_18328">
+            <Point id="geom_2228">
                 <coordinates>-70.7811,-28.0992,330</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18348">
+        <Placemark id="feat_2234">
             <name>03414002</name>
             <description>Iglesia Colorada</description>
-            <Point id="geom_18329">
+            <Point id="geom_2229">
                 <coordinates>-69.8808,-28.1572,1550</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18349">
+        <Placemark id="feat_2235">
             <name>03826003</name>
             <description>Huasco Bajo</description>
-            <Point id="geom_18330">
+            <Point id="geom_2230">
                 <coordinates>-71.1931,-28.4725,50</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18350">
+        <Placemark id="feat_2236">
             <name>03825004</name>
             <description>Freirina</description>
-            <Point id="geom_18331">
+            <Point id="geom_2231">
                 <coordinates>-71.0806,-28.5072,100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18351">
+        <Placemark id="feat_2237">
             <name>03823004</name>
             <description>La Compaia (Vallenar)</description>
-            <Point id="geom_18332">
+            <Point id="geom_2232">
                 <coordinates>-70.8081,-28.5761,430</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18352">
+        <Placemark id="feat_2238">
             <name>03823002</name>
             <description>Vallenar Dmc</description>
-            <Point id="geom_18333">
+            <Point id="geom_2233">
                 <coordinates>-70.7572,-28.5936,535</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18353">
+        <Placemark id="feat_2239">
             <name>03800000</name>
             <description>Portezuelo El Gaucho</description>
-            <Point id="geom_18334">
+            <Point id="geom_2234">
                 <coordinates>-70.045,-28.6231,4000</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18354">
+        <Placemark id="feat_2240">
             <name>03820004</name>
             <description>Santa Juana</description>
-            <Point id="geom_18335">
+            <Point id="geom_2235">
                 <coordinates>-70.6625,-28.6672,560</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18355">
+        <Placemark id="feat_2241">
             <name>03806002</name>
             <description>El Transito</description>
-            <Point id="geom_18336">
+            <Point id="geom_2236">
                 <coordinates>-70.2822,-28.8731,1100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18356">
+        <Placemark id="feat_2242">
             <name>03815004</name>
             <description>San Felix</description>
-            <Point id="geom_18337">
+            <Point id="geom_2237">
                 <coordinates>-70.4614,-28.9311,1150</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18357">
+        <Placemark id="feat_2243">
             <name>03802006</name>
             <description>Conay En Albaricoque</description>
-            <Point id="geom_18338">
+            <Point id="geom_2238">
                 <coordinates>-70.1106,-28.9519,1600</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18358">
+        <Placemark id="feat_2244">
             <name>03802005</name>
             <description>Conay</description>
-            <Point id="geom_18339">
+            <Point id="geom_2239">
                 <coordinates>-70.1533,-28.975,1450</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18359">
+        <Placemark id="feat_2245">
             <name>03804005</name>
             <description>El Parral</description>
-            <Point id="geom_18340">
+            <Point id="geom_2240">
                 <coordinates>-70.1986,-28.9797,1400</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18360">
+        <Placemark id="feat_2246">
             <name>04120001</name>
             <description>El Trapiche</description>
-            <Point id="geom_18341">
+            <Point id="geom_2241">
                 <coordinates>-71.1181,-29.3731,300</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18361">
+        <Placemark id="feat_2247">
             <name>04335002</name>
             <description>La Serena (Escuela Agricola)</description>
-            <Point id="geom_18342">
+            <Point id="geom_2242">
                 <coordinates>-71.2556,-29.9061,15</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18362">
+        <Placemark id="feat_2248">
             <name>04308001</name>
             <description>Rio Turbio En Varillar</description>
-            <Point id="geom_18343">
+            <Point id="geom_2243">
                 <coordinates>-70.5328,-29.9458,890</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18363">
+        <Placemark id="feat_2249">
             <name>04302001</name>
             <description>Rio Toro Antes Junta Rio La Laguna</description>
-            <Point id="geom_18344">
+            <Point id="geom_2244">
                 <coordinates>-70.0928,-29.9711,2165</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18364">
+        <Placemark id="feat_2250">
             <name>04302014</name>
             <description>Juntas</description>
-            <Point id="geom_18345">
+            <Point id="geom_2245">
                 <coordinates>-70.0944,-29.9769,2150</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18365">
+        <Placemark id="feat_2251">
             <name>04308003</name>
             <description>Rivadavia</description>
-            <Point id="geom_18346">
+            <Point id="geom_2246">
                 <coordinates>-70.5617,-29.9772,820</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18366">
+        <Placemark id="feat_2252">
             <name>04323007</name>
             <description>Almendral</description>
-            <Point id="geom_18347">
+            <Point id="geom_2247">
                 <coordinates>-70.9186,-29.9822,370</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18367">
+        <Placemark id="feat_2253">
             <name>04321001</name>
             <description>Puclaro Embalse</description>
-            <Point id="geom_18348">
+            <Point id="geom_2248">
                 <coordinates>-70.8556,-29.9964,460</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18368">
+        <Placemark id="feat_2254">
             <name>04400002</name>
             <description>Pan De Azucar</description>
-            <Point id="geom_18349">
+            <Point id="geom_2249">
                 <coordinates>-71.2592,-30.0022,100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18369">
+        <Placemark id="feat_2255">
             <name>04311005</name>
             <description>La Ortiga</description>
-            <Point id="geom_18350">
+            <Point id="geom_2250">
                 <coordinates>-70.4819,-30.1939,1560</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18370">
+        <Placemark id="feat_2256">
             <name>04301005</name>
             <description>La Laguna Embalse</description>
-            <Point id="geom_18351">
+            <Point id="geom_2251">
                 <coordinates>-70.0422,-30.2033,3160</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18371">
+        <Placemark id="feat_2257">
             <name>04502005</name>
             <description>Hurtado</description>
-            <Point id="geom_18352">
+            <Point id="geom_2252">
                 <coordinates>-70.6961,-30.2867,1100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18372">
+        <Placemark id="feat_2258">
             <name>04502004</name>
             <description>La Cortadera</description>
-            <Point id="geom_18353">
+            <Point id="geom_2253">
                 <coordinates>-70.77,-30.3503,920</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18373">
+        <Placemark id="feat_2259">
             <name>04506007</name>
             <description>Recoleta Embalse</description>
-            <Point id="geom_18354">
+            <Point id="geom_2254">
                 <coordinates>-71.0997,-30.5069,350</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18374">
+        <Placemark id="feat_2260">
             <name>04551004</name>
             <description>Ovalle (Escuela Agricola)</description>
-            <Point id="geom_18355">
+            <Point id="geom_2255">
                 <coordinates>-71.1642,-30.5528,340</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18375">
+        <Placemark id="feat_2261">
             <name>04557001</name>
             <description>Salala</description>
-            <Point id="geom_18356">
+            <Point id="geom_2256">
                 <coordinates>-71.53,-30.6783,100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18376">
+        <Placemark id="feat_2262">
             <name>04540006</name>
             <description>Paloma Embalse</description>
-            <Point id="geom_18357">
+            <Point id="geom_2257">
                 <coordinates>-71.0361,-30.6958,320</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18377">
+        <Placemark id="feat_2263">
             <name>04523004</name>
             <description>Puntilla San Juan</description>
-            <Point id="geom_18358">
+            <Point id="geom_2258">
                 <coordinates>-70.9178,-30.7025,430</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18378">
+        <Placemark id="feat_2264">
             <name>04537003</name>
             <description>El Tome</description>
-            <Point id="geom_18359">
+            <Point id="geom_2259">
                 <coordinates>-70.9706,-30.8178,420</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18379">
+        <Placemark id="feat_2265">
             <name>04513004</name>
             <description>Caren</description>
-            <Point id="geom_18360">
+            <Point id="geom_2260">
                 <coordinates>-70.7708,-30.8547,740</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18380">
+        <Placemark id="feat_2266">
             <name>04511004</name>
             <description>Cerro Vega Negra</description>
-            <Point id="geom_18361">
+            <Point id="geom_2261">
                 <coordinates>-70.5158,-30.9033,3600</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18381">
+        <Placemark id="feat_2267">
             <name>04535001</name>
             <description>Cogoti Embalse</description>
-            <Point id="geom_18362">
+            <Point id="geom_2262">
                 <coordinates>-71.0856,-31.0078,740</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18382">
+        <Placemark id="feat_2268">
             <name>04511003</name>
             <description>Las Ramadas</description>
-            <Point id="geom_18363">
+            <Point id="geom_2263">
                 <coordinates>-70.5858,-31.0181,1380</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18383">
+        <Placemark id="feat_2269">
             <name>04531002</name>
             <description>Rio Cogoti Entrada Embalse Cogoti</description>
-            <Point id="geom_18364">
+            <Point id="geom_2264">
                 <coordinates>-71.0403,-31.0325,670</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18384">
+        <Placemark id="feat_2270">
             <name>04530001</name>
             <description>Rio Cogoti En Fraguita</description>
-            <Point id="geom_18365">
+            <Point id="geom_2265">
                 <coordinates>-70.885,-31.1119,1065</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18385">
+        <Placemark id="feat_2271">
             <name>04722001</name>
             <description>Santa Virginia</description>
-            <Point id="geom_18366">
+            <Point id="geom_2266">
                 <coordinates>-70.8353,-31.5503,980</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18386">
+        <Placemark id="feat_2272">
             <name>04723001</name>
             <description>Rio Illapel En Huintil</description>
-            <Point id="geom_18367">
+            <Point id="geom_2267">
                 <coordinates>-70.9644,-31.5608,775</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18387">
+        <Placemark id="feat_2273">
             <name>04726003</name>
             <description>Illapel Dga</description>
-            <Point id="geom_18368">
+            <Point id="geom_2268">
                 <coordinates>-71.1908,-31.645,290</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18388">
+        <Placemark id="feat_2274">
             <name>04710001</name>
             <description>La Tranquilla</description>
-            <Point id="geom_18369">
+            <Point id="geom_2269">
                 <coordinates>-70.6706,-31.9,1000</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18389">
+        <Placemark id="feat_2275">
             <name>04810003</name>
             <description>Caimanes</description>
-            <Point id="geom_18370">
+            <Point id="geom_2270">
                 <coordinates>-71.1361,-31.9322,450</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18390">
+        <Placemark id="feat_2276">
             <name>04700002</name>
             <description>El Soldado</description>
-            <Point id="geom_18371">
+            <Point id="geom_2271">
                 <coordinates>-70.3214,-32.0067,3290</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18391">
+        <Placemark id="feat_2277">
             <name>04902002</name>
             <description>Los Condores</description>
-            <Point id="geom_18372">
+            <Point id="geom_2272">
                 <coordinates>-71.3125,-32.1086,190</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18392">
+        <Placemark id="feat_2278">
             <name>05200006</name>
             <description>Alicahue</description>
-            <Point id="geom_18373">
+            <Point id="geom_2273">
                 <coordinates>-70.7528,-32.3408,750</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18393">
+        <Placemark id="feat_2279">
             <name>05401007</name>
             <description>Portillo</description>
-            <Point id="geom_18374">
+            <Point id="geom_2274">
                 <coordinates>-70.1108,-32.8444,3000</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18394">
+        <Placemark id="feat_2280">
             <name>05410002</name>
             <description>Rio Aconcagua En Chacabuquito</description>
-            <Point id="geom_18375">
+            <Point id="geom_2275">
                 <coordinates>-70.5094,-32.8503,950</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18395">
+        <Placemark id="feat_2281">
             <name>05410006</name>
             <description>Vilcuya</description>
-            <Point id="geom_18376">
+            <Point id="geom_2276">
                 <coordinates>-70.4719,-32.8603,1100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18396">
+        <Placemark id="feat_2282">
             <name>05426004</name>
             <description>Quillota</description>
-            <Point id="geom_18377">
+            <Point id="geom_2277">
                 <coordinates>-71.2092,-32.8958,130</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18397">
+        <Placemark id="feat_2283">
             <name>05427007</name>
             <description>Los Aromos</description>
-            <Point id="geom_18378">
+            <Point id="geom_2278">
                 <coordinates>-71.345,-32.9578,100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18398">
+        <Placemark id="feat_2284">
             <name>05733008</name>
             <description>Rungue Embalse</description>
-            <Point id="geom_18379">
+            <Point id="geom_2279">
                 <coordinates>-70.9081,-33.0194,700</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18399">
+        <Placemark id="feat_2285">
             <name>05732002</name>
             <description>Huechun Andina</description>
-            <Point id="geom_18380">
+            <Point id="geom_2280">
                 <coordinates>-70.7686,-33.0758,590</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18400">
+        <Placemark id="feat_2286">
             <name>05427006</name>
             <description>Lliu-Lliu Embalse</description>
-            <Point id="geom_18381">
+            <Point id="geom_2281">
                 <coordinates>-71.2144,-33.0986,260</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18401">
+        <Placemark id="feat_2287">
             <name>05510002</name>
             <description>Lago Peuelas</description>
-            <Point id="geom_18382">
+            <Point id="geom_2282">
                 <coordinates>-71.5553,-33.145,360</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18402">
+        <Placemark id="feat_2288">
             <name>05720003</name>
             <description>La Ermita Central En Bocatoma</description>
-            <Point id="geom_18383">
+            <Point id="geom_2283">
                 <coordinates>-70.3636,-33.3414,1350</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18403">
+        <Placemark id="feat_2289">
             <name>05722002</name>
             <description>Rio Mapocho En Los Almendros</description>
-            <Point id="geom_18384">
+            <Point id="geom_2284">
                 <coordinates>-70.4508,-33.3703,966</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18404">
+        <Placemark id="feat_2290">
             <name>05730012</name>
             <description>Cerro Calan</description>
-            <Point id="geom_18385">
+            <Point id="geom_2285">
                 <coordinates>-70.5367,-33.395,848</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18405">
+        <Placemark id="feat_2291">
             <name>05744002</name>
             <description>Los Panguiles</description>
-            <Point id="geom_18386">
+            <Point id="geom_2286">
                 <coordinates>-71.0256,-33.4386,190</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18406">
+        <Placemark id="feat_2292">
             <name>05730015</name>
             <description>Campus San Joaquin U.C.</description>
-            <Point id="geom_18387">
+            <Point id="geom_2287">
                 <coordinates>-70.6142,-33.4975,570</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18407">
+        <Placemark id="feat_2293">
             <name>05730039</name>
             <description>Quebrada De Macul</description>
-            <Point id="geom_18388">
+            <Point id="geom_2288">
                 <coordinates>-70.5144,-33.5017,950</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18408">
+        <Placemark id="feat_2294">
             <name>05703011</name>
             <description>Glaciar Echaurren</description>
-            <Point id="geom_18389">
+            <Point id="geom_2289">
                 <coordinates>-70.1283,-33.5722,3850</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18409">
+        <Placemark id="feat_2295">
             <name>05703009</name>
             <description>Laguna Negra</description>
-            <Point id="geom_18390">
+            <Point id="geom_2290">
                 <coordinates>-70.1078,-33.6658,2780</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18410">
+        <Placemark id="feat_2296">
             <name>05711003</name>
             <description>Pirque</description>
-            <Point id="geom_18391">
+            <Point id="geom_2291">
                 <coordinates>-70.5869,-33.6736,659</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18411">
+        <Placemark id="feat_2297">
             <name>05703008</name>
             <description>El Yeso Embalse</description>
-            <Point id="geom_18392">
+            <Point id="geom_2292">
                 <coordinates>-70.0886,-33.6767,2475</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18412">
+        <Placemark id="feat_2298">
             <name>05740005</name>
             <description>Melipilla</description>
-            <Point id="geom_18393">
+            <Point id="geom_2293">
                 <coordinates>-71.1997,-33.6803,168</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18413">
+        <Placemark id="feat_2299">
             <name>05701008</name>
             <description>Queltehues</description>
-            <Point id="geom_18394">
+            <Point id="geom_2294">
                 <coordinates>-70.2172,-33.8164,1450</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18414">
+        <Placemark id="feat_2300">
             <name>05716005</name>
             <description>Laguna Aculeo</description>
-            <Point id="geom_18395">
+            <Point id="geom_2295">
                 <coordinates>-70.8775,-33.8858,360</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18415">
+        <Placemark id="feat_2301">
             <name>05701005</name>
             <description>Las Melosas</description>
-            <Point id="geom_18396">
+            <Point id="geom_2296">
                 <coordinates>-70.1981,-33.8994,1527</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18416">
+        <Placemark id="feat_2302">
             <name>06011003</name>
             <description>Graneros</description>
-            <Point id="geom_18397">
+            <Point id="geom_2297">
                 <coordinates>-70.7083,-34.0556,500</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18417">
+        <Placemark id="feat_2303">
             <name>06015003</name>
             <description>Rengo</description>
-            <Point id="geom_18398">
+            <Point id="geom_2298">
                 <coordinates>-70.8667,-34.4217,310</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18418">
+        <Placemark id="feat_2304">
             <name>06013005</name>
             <description>Popeta</description>
-            <Point id="geom_18399">
+            <Point id="geom_2299">
                 <coordinates>-70.7794,-34.4369,480</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18419">
+        <Placemark id="feat_2305">
             <name>07120002</name>
             <description>Laguna De Torca</description>
-            <Point id="geom_18400">
+            <Point id="geom_2300">
                 <coordinates>-72.065,-34.7675,28</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18420">
+        <Placemark id="feat_2306">
             <name>06034003</name>
             <description>Convento Viejo</description>
-            <Point id="geom_18401">
+            <Point id="geom_2301">
                 <coordinates>-71.1331,-34.7694,239</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18421">
+        <Placemark id="feat_2307">
             <name>06020001</name>
             <description>Termas Del Flaco</description>
-            <Point id="geom_18402">
+            <Point id="geom_2302">
                 <coordinates>-70.3297,-34.8911,2650</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18422">
+        <Placemark id="feat_2308">
             <name>07118003</name>
             <description>Curico</description>
-            <Point id="geom_18403">
+            <Point id="geom_2303">
                 <coordinates>-71.2361,-34.9811,195</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18423">
+        <Placemark id="feat_2309">
             <name>07116005</name>
             <description>Potrero Grande</description>
-            <Point id="geom_18404">
+            <Point id="geom_2304">
                 <coordinates>-71.0978,-35.1833,445</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18424">
+        <Placemark id="feat_2310">
             <name>07384002</name>
             <description>Constitucion</description>
-            <Point id="geom_18405">
+            <Point id="geom_2305">
                 <coordinates>-72.4089,-35.3242,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18425">
+        <Placemark id="feat_2311">
             <name>07381003</name>
             <description>Pencahue</description>
-            <Point id="geom_18406">
+            <Point id="geom_2306">
                 <coordinates>-71.8325,-35.3725,55</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18426">
+        <Placemark id="feat_2312">
             <name>07381002</name>
             <description>Fundo El Peral</description>
-            <Point id="geom_18407">
+            <Point id="geom_2307">
                 <coordinates>-71.7833,-35.4006,110</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18427">
+        <Placemark id="feat_2313">
             <name>07378002</name>
             <description>Talca U.C.</description>
-            <Point id="geom_18408">
+            <Point id="geom_2308">
                 <coordinates>-71.6197,-35.4358,130</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18428">
+        <Placemark id="feat_2314">
             <name>07379002</name>
             <description>Rio Claro En Rauquen</description>
-            <Point id="geom_18409">
+            <Point id="geom_2309">
                 <coordinates>-71.7333,-35.4525,64</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18429">
+        <Placemark id="feat_2315">
             <name>07378003</name>
             <description>Colorado</description>
-            <Point id="geom_18410">
+            <Point id="geom_2310">
                 <coordinates>-71.2606,-35.6381,420</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18430">
+        <Placemark id="feat_2316">
             <name>07321002</name>
             <description>Rio Maule En Armerillo</description>
-            <Point id="geom_18411">
+            <Point id="geom_2311">
                 <coordinates>-71.1139,-35.7061,470</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18431">
+        <Placemark id="feat_2317">
             <name>07358007</name>
             <description>Linares</description>
-            <Point id="geom_18412">
+            <Point id="geom_2312">
                 <coordinates>-71.5953,-35.8381,157</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18432">
+        <Placemark id="feat_2318">
             <name>07317001</name>
             <description>Rio Melado En La Lancha Dga</description>
-            <Point id="geom_18413">
+            <Point id="geom_2313">
                 <coordinates>-71.0667,-35.85,650</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18433">
+        <Placemark id="feat_2319">
             <name>07317005</name>
             <description>Rio Melado En El Salto</description>
-            <Point id="geom_18414">
+            <Point id="geom_2314">
                 <coordinates>-71.0192,-35.8842,730</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18434">
+        <Placemark id="feat_2320">
             <name>07355007</name>
             <description>Ancoa Embalse</description>
-            <Point id="geom_18415">
+            <Point id="geom_2315">
                 <coordinates>-71.2958,-35.9106,421</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18435">
+        <Placemark id="feat_2321">
             <name>07301000</name>
             <description>Lo Aguirre</description>
-            <Point id="geom_18416">
+            <Point id="geom_2316">
                 <coordinates>-70.5719,-35.9697,2000</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18436">
+        <Placemark id="feat_2322">
             <name>07301001</name>
             <description>Los Condores</description>
-            <Point id="geom_18417">
+            <Point id="geom_2317">
                 <coordinates>-70.5589,-36.0106,2172</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18437">
+        <Placemark id="feat_2323">
             <name>07345001</name>
             <description>Parral</description>
-            <Point id="geom_18418">
+            <Point id="geom_2318">
                 <coordinates>-71.8283,-36.1878,175</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18438">
+        <Placemark id="feat_2324">
             <name>07331002</name>
             <description>Digua Embalse</description>
-            <Point id="geom_18419">
+            <Point id="geom_2319">
                 <coordinates>-71.5481,-36.2558,390</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18439">
+        <Placemark id="feat_2325">
             <name>07314002</name>
             <description>Guayquivilo</description>
-            <Point id="geom_18420">
+            <Point id="geom_2320">
                 <coordinates>-70.9181,-36.2933,1200</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18440">
+        <Placemark id="feat_2326">
             <name>08113001</name>
             <description>Coihueco Embalse</description>
-            <Point id="geom_18421">
+            <Point id="geom_2321">
                 <coordinates>-71.7989,-36.6408,314</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18441">
+        <Placemark id="feat_2327">
             <name>08105004</name>
             <description>Caracol</description>
-            <Point id="geom_18422">
+            <Point id="geom_2322">
                 <coordinates>-71.395,-36.6511,610</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18442">
+        <Placemark id="feat_2328">
             <name>08105003</name>
             <description>La Punilla</description>
-            <Point id="geom_18423">
+            <Point id="geom_2323">
                 <coordinates>-71.3278,-36.6583,840</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18443">
+        <Placemark id="feat_2329">
             <name>08130006</name>
             <description>Diguillin</description>
-            <Point id="geom_18424">
+            <Point id="geom_2324">
                 <coordinates>-71.6425,-36.8686,670</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18444">
+        <Placemark id="feat_2330">
             <name>08372001</name>
             <description>Alto Mallines</description>
-            <Point id="geom_18425">
+            <Point id="geom_2325">
                 <coordinates>-71.2425,-37.1589,1770</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18445">
+        <Placemark id="feat_2331">
             <name>08318002</name>
             <description>Quilaco</description>
-            <Point id="geom_18426">
+            <Point id="geom_2326">
                 <coordinates>-72.0058,-37.685,231</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18446">
+        <Placemark id="feat_2332">
             <name>08317006</name>
             <description>Embalse Central Angostura</description>
-            <Point id="geom_18427">
+            <Point id="geom_2327">
                 <coordinates>-71.8172,-37.7131,324</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18447">
+        <Placemark id="feat_2333">
             <name>08358002</name>
             <description>Angol (La Mona)</description>
-            <Point id="geom_18428">
+            <Point id="geom_2328">
                 <coordinates>-72.6372,-37.7794,113</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18448">
+        <Placemark id="feat_2334">
             <name>08358003</name>
             <description>El Vergel (Angol)</description>
-            <Point id="geom_18429">
+            <Point id="geom_2329">
                 <coordinates>-72.65,-37.8172,75</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18449">
+        <Placemark id="feat_2335">
             <name>08358005</name>
             <description>Parque Nahuelbuta</description>
-            <Point id="geom_18430">
+            <Point id="geom_2330">
                 <coordinates>-72.9606,-37.8233,1177</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18450">
+        <Placemark id="feat_2336">
             <name>08351003</name>
             <description>Collipulli</description>
-            <Point id="geom_18431">
+            <Point id="geom_2331">
                 <coordinates>-72.4256,-37.9583,240</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18451">
+        <Placemark id="feat_2337">
             <name>08822008</name>
             <description>Contulmo</description>
-            <Point id="geom_18432">
+            <Point id="geom_2332">
                 <coordinates>-73.23,-38.0186,41</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18452">
+        <Placemark id="feat_2338">
             <name>08353001</name>
             <description>Ercilla (Vida Nueva)</description>
-            <Point id="geom_18433">
+            <Point id="geom_2333">
                 <coordinates>-72.4611,-38.0442,262</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18453">
+        <Placemark id="feat_2339">
             <name>08307002</name>
             <description>Rio Bio-Bio En Llanquen</description>
-            <Point id="geom_18434">
+            <Point id="geom_2334">
                 <coordinates>-71.2989,-38.2008,767</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18454">
+        <Placemark id="feat_2340">
             <name>08350002</name>
             <description>Laguna Malleco</description>
-            <Point id="geom_18435">
+            <Point id="geom_2335">
                 <coordinates>-71.8106,-38.2156,894</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18455">
+        <Placemark id="feat_2341">
             <name>09105002</name>
             <description>Traiguen</description>
-            <Point id="geom_18436">
+            <Point id="geom_2336">
                 <coordinates>-72.6536,-38.2561,234</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18456">
+        <Placemark id="feat_2342">
             <name>08304004</name>
             <description>Lonquimay</description>
-            <Point id="geom_18437">
+            <Point id="geom_2337">
                 <coordinates>-71.3742,-38.4536,931</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18457">
+        <Placemark id="feat_2343">
             <name>09120002</name>
             <description>Manzanar</description>
-            <Point id="geom_18438">
+            <Point id="geom_2338">
                 <coordinates>-71.6992,-38.4631,790</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18458">
+        <Placemark id="feat_2344">
             <name>09120003</name>
             <description>Malalcahuello</description>
-            <Point id="geom_18439">
+            <Point id="geom_2339">
                 <coordinates>-71.5753,-38.4703,950</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18459">
+        <Placemark id="feat_2345">
             <name>09124001</name>
             <description>Lautaro</description>
-            <Point id="geom_18440">
+            <Point id="geom_2340">
                 <coordinates>-72.4522,-38.5186,200</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18460">
+        <Placemark id="feat_2346">
             <name>08301001</name>
             <description>Liucura</description>
-            <Point id="geom_18441">
+            <Point id="geom_2341">
                 <coordinates>-71.0919,-38.6517,1043</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18461">
+        <Placemark id="feat_2347">
             <name>09130001</name>
             <description>Cherquenco</description>
-            <Point id="geom_18442">
+            <Point id="geom_2342">
                 <coordinates>-72.0,-38.6839,500</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18462">
+        <Placemark id="feat_2348">
             <name>09129005</name>
             <description>Pueblo Nuevo (Temuco)</description>
-            <Point id="geom_18443">
+            <Point id="geom_2343">
                 <coordinates>-72.5558,-38.7128,119</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18463">
+        <Placemark id="feat_2349">
             <name>09129006</name>
             <description>Temuco Centro</description>
-            <Point id="geom_18444">
+            <Point id="geom_2344">
                 <coordinates>-72.59,-38.7425,122</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18464">
+        <Placemark id="feat_2350">
             <name>09153001</name>
             <description>Puerto Saavedra</description>
-            <Point id="geom_18445">
+            <Point id="geom_2345">
                 <coordinates>-73.3936,-38.7886,5</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18465">
+        <Placemark id="feat_2351">
             <name>09401001</name>
             <description>Tricauco</description>
-            <Point id="geom_18446">
+            <Point id="geom_2346">
                 <coordinates>-71.55,-38.8506,520</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18466">
+        <Placemark id="feat_2352">
             <name>09403001</name>
             <description>Cunco</description>
-            <Point id="geom_18447">
+            <Point id="geom_2347">
                 <coordinates>-72.0125,-38.9269,380</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18467">
+        <Placemark id="feat_2353">
             <name>09135003</name>
             <description>Freire Sendos</description>
-            <Point id="geom_18448">
+            <Point id="geom_2348">
                 <coordinates>-72.6083,-38.9592,100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18468">
+        <Placemark id="feat_2354">
             <name>09438001</name>
             <description>Teodoro Schmitd</description>
-            <Point id="geom_18449">
+            <Point id="geom_2349">
                 <coordinates>-73.0781,-39.0278,13</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18469">
+        <Placemark id="feat_2355">
             <name>09417002</name>
             <description>Ojos Del Caburgua</description>
-            <Point id="geom_18450">
+            <Point id="geom_2350">
                 <coordinates>-71.8356,-39.2367,300</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18470">
+        <Placemark id="feat_2356">
             <name>09420002</name>
             <description>Pucon</description>
-            <Point id="geom_18451">
+            <Point id="geom_2351">
                 <coordinates>-71.9503,-39.2753,230</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18471">
+        <Placemark id="feat_2357">
             <name>09412002</name>
             <description>Curarrehue</description>
-            <Point id="geom_18452">
+            <Point id="geom_2352">
                 <coordinates>-71.5744,-39.3581,420</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18472">
+        <Placemark id="feat_2358">
             <name>09412003</name>
             <description>Puesco (Aduana)</description>
-            <Point id="geom_18453">
+            <Point id="geom_2353">
                 <coordinates>-71.5478,-39.5192,620</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18473">
+        <Placemark id="feat_2359">
             <name>10123006</name>
             <description>Valdivia (U. Austral)</description>
-            <Point id="geom_18454">
+            <Point id="geom_2354">
                 <coordinates>-73.2517,-39.8103,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18474">
+        <Placemark id="feat_2360">
             <name>10100002</name>
             <description>Rio Fui En Desage Lago Pirihueico</description>
-            <Point id="geom_18455">
+            <Point id="geom_2355">
                 <coordinates>-71.8897,-39.8747,600</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18475">
+        <Placemark id="feat_2361">
             <name>10307001</name>
             <description>Lago Ranco</description>
-            <Point id="geom_18456">
+            <Point id="geom_2356">
                 <coordinates>-72.4692,-40.3172,100</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18476">
+        <Placemark id="feat_2362">
             <name>10360002</name>
             <description>Adolfo Matthei</description>
-            <Point id="geom_18457">
+            <Point id="geom_2357">
                 <coordinates>-73.1069,-40.5883,55</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18477">
+        <Placemark id="feat_2363">
             <name>10322002</name>
             <description>Anticura</description>
-            <Point id="geom_18458">
+            <Point id="geom_2358">
                 <coordinates>-72.1844,-40.6553,350</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18478">
+        <Placemark id="feat_2364">
             <name>10410005</name>
             <description>La Ensenada</description>
-            <Point id="geom_18459">
+            <Point id="geom_2359">
                 <coordinates>-72.5681,-41.2269,62</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18479">
+        <Placemark id="feat_2365">
             <name>10432004</name>
             <description>Pelluco (U. Austral)</description>
-            <Point id="geom_18460">
+            <Point id="geom_2360">
                 <coordinates>-72.8958,-41.4911,25</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18480">
+        <Placemark id="feat_2366">
             <name>10901002</name>
             <description>Castro 1 (Dga)</description>
-            <Point id="geom_18461">
+            <Point id="geom_2361">
                 <coordinates>-73.7744,-42.4581,50</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18481">
+        <Placemark id="feat_2367">
             <name>10901003</name>
             <description>Chonchi</description>
-            <Point id="geom_18462">
+            <Point id="geom_2362">
                 <coordinates>-73.7728,-42.6228,30</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18482">
+        <Placemark id="feat_2368">
             <name>11043001</name>
             <description>Marin Balmaceda</description>
-            <Point id="geom_18463">
+            <Point id="geom_2363">
                 <coordinates>-72.9547,-43.7717,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18483">
+        <Placemark id="feat_2369">
             <name>11041001</name>
             <description>La Junta</description>
-            <Point id="geom_18464">
+            <Point id="geom_2364">
                 <coordinates>-72.4056,-43.9708,45</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18484">
+        <Placemark id="feat_2370">
             <name>11031001</name>
             <description>Lago Verde</description>
-            <Point id="geom_18465">
+            <Point id="geom_2365">
                 <coordinates>-71.8461,-44.2394,350</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18485">
+        <Placemark id="feat_2371">
             <name>11120001</name>
             <description>Puerto Puyuhuapi</description>
-            <Point id="geom_18466">
+            <Point id="geom_2366">
                 <coordinates>-72.5597,-44.3228,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18486">
+        <Placemark id="feat_2372">
             <name>11140001</name>
             <description>Rio Cisnes</description>
-            <Point id="geom_18467">
+            <Point id="geom_2367">
                 <coordinates>-71.3064,-44.4975,740</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18487">
+        <Placemark id="feat_2373">
             <name>11143003</name>
             <description>La Tapera</description>
-            <Point id="geom_18468">
+            <Point id="geom_2368">
                 <coordinates>-71.6736,-44.6472,550</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18488">
+        <Placemark id="feat_2374">
             <name>11147003</name>
             <description>Puerto Cisnes</description>
-            <Point id="geom_18469">
+            <Point id="geom_2369">
                 <coordinates>-72.6814,-44.7278,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18489">
+        <Placemark id="feat_2375">
             <name>11180000</name>
             <description>Islas Huichas</description>
-            <Point id="geom_18470">
+            <Point id="geom_2370">
                 <coordinates>-73.5164,-45.1553,6</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18490">
+        <Placemark id="feat_2376">
             <name>11304001</name>
             <description>Villa Maihuales</description>
-            <Point id="geom_18471">
+            <Point id="geom_2371">
                 <coordinates>-72.1478,-45.1733,150</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18491">
+        <Placemark id="feat_2377">
             <name>11300001</name>
             <description>Estancia Bao Nuevo</description>
-            <Point id="geom_18472">
+            <Point id="geom_2372">
                 <coordinates>-71.5292,-45.2669,700</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18492">
+        <Placemark id="feat_2378">
             <name>11302002</name>
             <description>Irehuao</description>
-            <Point id="geom_18473">
+            <Point id="geom_2373">
                 <coordinates>-71.7092,-45.2706,535</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18493">
+        <Placemark id="feat_2379">
             <name>11307002</name>
             <description>Villa Ortega</description>
-            <Point id="geom_18474">
+            <Point id="geom_2374">
                 <coordinates>-71.9822,-45.3719,550</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18494">
+        <Placemark id="feat_2380">
             <name>11342002</name>
             <description>Puerto Aysen</description>
-            <Point id="geom_18475">
+            <Point id="geom_2375">
                 <coordinates>-72.7,-45.4006,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18495">
+        <Placemark id="feat_2381">
             <name>11316004</name>
             <description>Coyhaique Alto</description>
-            <Point id="geom_18476">
+            <Point id="geom_2376">
                 <coordinates>-71.6044,-45.4803,730</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18496">
+        <Placemark id="feat_2382">
             <name>11317005</name>
             <description>Coyhaique Conaf</description>
-            <Point id="geom_18477">
+            <Point id="geom_2377">
                 <coordinates>-72.0589,-45.5511,340</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18497">
+        <Placemark id="feat_2383">
             <name>11316003</name>
             <description>Coyhaique (Escuela Agricola)</description>
-            <Point id="geom_18478">
+            <Point id="geom_2378">
                 <coordinates>-72.0286,-45.5739,343</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18498">
+        <Placemark id="feat_2384">
             <name>11505001</name>
             <description>Rio Ibaez En Desembocadura</description>
-            <Point id="geom_18479">
+            <Point id="geom_2379">
                 <coordinates>-71.9908,-46.2692,220</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18499">
+        <Placemark id="feat_2385">
             <name>11511001</name>
             <description>Puerto Ibaez</description>
-            <Point id="geom_18480">
+            <Point id="geom_2380">
                 <coordinates>-71.9336,-46.2892,215</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18500">
+        <Placemark id="feat_2386">
             <name>11513001</name>
             <description>Bahia Murta</description>
-            <Point id="geom_18481">
+            <Point id="geom_2381">
                 <coordinates>-72.6686,-46.4619,240</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18501">
+        <Placemark id="feat_2387">
             <name>11521002</name>
             <description>Chile Chico</description>
-            <Point id="geom_18482">
+            <Point id="geom_2382">
                 <coordinates>-71.7089,-46.5436,215</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18502">
+        <Placemark id="feat_2388">
             <name>11523001</name>
             <description>Puerto Guadal</description>
-            <Point id="geom_18483">
+            <Point id="geom_2383">
                 <coordinates>-72.7008,-46.8428,210</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18503">
+        <Placemark id="feat_2389">
             <name>11532000</name>
             <description>Rio Nef Antes Junta Estero El Revalse</description>
-            <Point id="geom_18484">
+            <Point id="geom_2384">
                 <coordinates>-73.0869,-47.1378,281</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18504">
+        <Placemark id="feat_2390">
             <name>11536004</name>
             <description>Rio Baker En Angostura Chacabuco</description>
-            <Point id="geom_18485">
+            <Point id="geom_2385">
                 <coordinates>-72.7258,-47.1414,160</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18505">
+        <Placemark id="feat_2391">
             <name>11536003</name>
             <description>Aerodromo Cochrane</description>
-            <Point id="geom_18486">
+            <Point id="geom_2386">
                 <coordinates>-72.5831,-47.2442,200</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18506">
+        <Placemark id="feat_2392">
             <name>11541000</name>
             <description>Rio Colonia En Nacimiento</description>
-            <Point id="geom_18487">
+            <Point id="geom_2387">
                 <coordinates>-73.1147,-47.3392,146</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18507">
+        <Placemark id="feat_2393">
             <name>11546001</name>
             <description>Caleta Tortel</description>
-            <Point id="geom_18488">
+            <Point id="geom_2388">
                 <coordinates>-73.5358,-47.7997,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18508">
+        <Placemark id="feat_2394">
             <name>11711000</name>
             <description>Rio Pascua Ante Junta Rio Quetru</description>
-            <Point id="geom_18489">
+            <Point id="geom_2389">
                 <coordinates>-73.0889,-48.1592,20</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18509">
+        <Placemark id="feat_2395">
             <name>11700001</name>
             <description>Rio Mayer Reten</description>
-            <Point id="geom_18490">
+            <Point id="geom_2390">
                 <coordinates>-72.3228,-48.2083,450</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18510">
+        <Placemark id="feat_2396">
             <name>11701002</name>
             <description>Villa Ohiggins</description>
-            <Point id="geom_18491">
+            <Point id="geom_2391">
                 <coordinates>-72.5589,-48.4692,270</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18511">
+        <Placemark id="feat_2397">
             <name>11702000</name>
             <description>Lago Ohiggins En Villa Ohiggins</description>
-            <Point id="geom_18492">
+            <Point id="geom_2392">
                 <coordinates>-72.5953,-48.5169,300</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18512">
+        <Placemark id="feat_2398">
             <name>12000000</name>
             <description>Glaciar Tempano</description>
-            <Point id="geom_18493">
+            <Point id="geom_2393">
                 <coordinates>-74.1831,-48.8347,20</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18513">
+        <Placemark id="feat_2399">
             <name>11704001</name>
             <description>Candelario Mancilla</description>
-            <Point id="geom_18494">
+            <Point id="geom_2394">
                 <coordinates>-72.7394,-48.8775,300</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18514">
+        <Placemark id="feat_2400">
             <name>12125001</name>
             <description>Puerto Eden</description>
-            <Point id="geom_18495">
+            <Point id="geom_2395">
                 <coordinates>-74.4069,-49.1228,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18515">
+        <Placemark id="feat_2401">
             <name>12280004</name>
             <description>Lago Dickson</description>
-            <Point id="geom_18496">
+            <Point id="geom_2396">
                 <coordinates>-73.1125,-50.8228,200</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18516">
+        <Placemark id="feat_2402">
             <name>12283004</name>
             <description>Laguna Azul</description>
-            <Point id="geom_18497">
+            <Point id="geom_2397">
                 <coordinates>-72.7328,-50.8789,240</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18517">
+        <Placemark id="feat_2403">
             <name>12283001</name>
             <description>Cerro Guido</description>
-            <Point id="geom_18498">
+            <Point id="geom_2398">
                 <coordinates>-72.3314,-50.8986,230</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18518">
+        <Placemark id="feat_2404">
             <name>12284006</name>
             <description>Rio Las Chinas En Cerro Guido</description>
-            <Point id="geom_18499">
+            <Point id="geom_2399">
                 <coordinates>-72.5169,-51.0508,75</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18519">
+        <Placemark id="feat_2405">
             <name>12286001</name>
             <description>Torres Del Paine</description>
-            <Point id="geom_18500">
+            <Point id="geom_2400">
                 <coordinates>-72.9669,-51.1842,25</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18520">
+        <Placemark id="feat_2406">
             <name>12284010</name>
             <description>Cerro Castillo</description>
-            <Point id="geom_18501">
+            <Point id="geom_2401">
                 <coordinates>-72.3272,-51.26,130</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18521">
+        <Placemark id="feat_2407">
             <name>12293001</name>
             <description>Puerto Natales</description>
-            <Point id="geom_18502">
+            <Point id="geom_2402">
                 <coordinates>-72.4781,-51.7336,45</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18522">
+        <Placemark id="feat_2408">
             <name>12680001</name>
             <description>Monte Aymond</description>
-            <Point id="geom_18503">
+            <Point id="geom_2403">
                 <coordinates>-69.6078,-52.1644,160</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18523">
+        <Placemark id="feat_2409">
             <name>12620000</name>
             <description>Penitente Alto</description>
-            <Point id="geom_18504">
+            <Point id="geom_2404">
                 <coordinates>-71.6806,-52.2092,290</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18524">
+        <Placemark id="feat_2410">
             <name>12403000</name>
             <description>Seno Obstruccin</description>
-            <Point id="geom_18505">
+            <Point id="geom_2405">
                 <coordinates>-72.4783,-52.2094,4</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18525">
+        <Placemark id="feat_2411">
             <name>12540001</name>
             <description>Ohiggins Villa</description>
-            <Point id="geom_18506">
+            <Point id="geom_2406">
                 <coordinates>-69.6881,-52.3161,70</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18526">
+        <Placemark id="feat_2412">
             <name>12622002</name>
             <description>Villa Tehuelche</description>
-            <Point id="geom_18507">
+            <Point id="geom_2407">
                 <coordinates>-71.4022,-52.4414,190</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18527">
+        <Placemark id="feat_2413">
             <name>12452002</name>
             <description>Rio Perez</description>
-            <Point id="geom_18508">
+            <Point id="geom_2408">
                 <coordinates>-71.9603,-52.5486,5</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18528">
+        <Placemark id="feat_2414">
             <name>12452001</name>
             <description>Rio Perez En Desembocadura</description>
-            <Point id="geom_18509">
+            <Point id="geom_2409">
                 <coordinates>-71.9747,-52.5492,20</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18529">
+        <Placemark id="feat_2415">
             <name>12806005</name>
             <description>Sarita En Bahia San Felipe</description>
-            <Point id="geom_18510">
+            <Point id="geom_2410">
                 <coordinates>-69.9,-52.8675,15</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18530">
+        <Placemark id="feat_2416">
             <name>12806004</name>
             <description>Bahia San Felipe</description>
-            <Point id="geom_18511">
+            <Point id="geom_2411">
                 <coordinates>-69.9319,-52.8697,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18531">
+        <Placemark id="feat_2417">
             <name>12449001</name>
             <description>Isla Riesco</description>
-            <Point id="geom_18512">
+            <Point id="geom_2412">
                 <coordinates>-71.5706,-52.8819,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18532">
+        <Placemark id="feat_2418">
             <name>12448001</name>
             <description>Rio Grande En Isla Riesco</description>
-            <Point id="geom_18513">
+            <Point id="geom_2413">
                 <coordinates>-71.8706,-52.9964,5</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18533">
+        <Placemark id="feat_2419">
             <name>12586004</name>
             <description>Punta Arenas</description>
-            <Point id="geom_18514">
+            <Point id="geom_2414">
                 <coordinates>-70.8772,-53.1233,5</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18534">
+        <Placemark id="feat_2420">
             <name>12586009</name>
             <description>Canal De Trasvase Estero Llau-Llau</description>
-            <Point id="geom_18515">
+            <Point id="geom_2415">
                 <coordinates>-70.9358,-53.125,80</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18535">
+        <Placemark id="feat_2421">
             <name>12809001</name>
             <description>Porvenir</description>
-            <Point id="geom_18516">
+            <Point id="geom_2416">
                 <coordinates>-70.37,-53.2908,35</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18536">
+        <Placemark id="feat_2422">
             <name>12815001</name>
             <description>Onaisin En Maria Cristina</description>
-            <Point id="geom_18517">
+            <Point id="geom_2417">
                 <coordinates>-69.2675,-53.3056,30</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18537">
+        <Placemark id="feat_2423">
             <name>12863001</name>
             <description>San Sebastian</description>
-            <Point id="geom_18518">
+            <Point id="geom_2418">
                 <coordinates>-68.6614,-53.3217,20</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18538">
+        <Placemark id="feat_2424">
             <name>12873001</name>
             <description>Russfin</description>
-            <Point id="geom_18519">
+            <Point id="geom_2419">
                 <coordinates>-69.1892,-53.7594,225</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18539">
+        <Placemark id="feat_2425">
             <name>12876002</name>
             <description>Seccion Rio Grande</description>
-            <Point id="geom_18520">
+            <Point id="geom_2420">
                 <coordinates>-68.9183,-53.8967,130</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18540">
+        <Placemark id="feat_2426">
             <name>12876003</name>
             <description>Pampa Huanaco</description>
-            <Point id="geom_18521">
+            <Point id="geom_2421">
                 <coordinates>-68.7997,-54.0497,150</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18541">
+        <Placemark id="feat_2427">
             <name>12930001</name>
             <description>Rio Robalo En Puerto Williams</description>
-            <Point id="geom_18522">
+            <Point id="geom_2422">
                 <coordinates>-67.6392,-54.9469,80</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18542">
+        <Placemark id="feat_2428">
             <name>180005</name>
             <description>Chacalluta Arica Ap.</description>
-            <Point id="geom_18523">
+            <Point id="geom_2423">
                 <coordinates>-70.3358,-18.3514,63</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18543">
+        <Placemark id="feat_2429">
             <name>200006</name>
             <description>Diego Aracena Iquique Ap.</description>
-            <Point id="geom_18524">
+            <Point id="geom_2424">
                 <coordinates>-70.1786,-20.5397,52</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18544">
+        <Placemark id="feat_2430">
             <name>230001</name>
             <description>Cerro Moreno Antofagasta Ap.</description>
-            <Point id="geom_18525">
+            <Point id="geom_2425">
                 <coordinates>-70.4411,-23.4503,113</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18545">
+        <Placemark id="feat_2431">
             <name>270008</name>
             <description>Desierto De Atacama Caldera Ap.</description>
-            <Point id="geom_18526">
+            <Point id="geom_2426">
                 <coordinates>-70.7742,-27.2639,204</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18546">
+        <Placemark id="feat_2432">
             <name>290004</name>
             <description>La Florida La Serena Ad.</description>
-            <Point id="geom_18527">
+            <Point id="geom_2427">
                 <coordinates>-71.2011,-29.9175,142</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18547">
+        <Placemark id="feat_2433">
             <name>330020</name>
             <description>Quinta Normal Santiago</description>
-            <Point id="geom_18528">
+            <Point id="geom_2428">
                 <coordinates>-70.6828,-33.445,527</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18548">
+        <Placemark id="feat_2434">
             <name>340031</name>
             <description>General Freire Curico Ad.</description>
-            <Point id="geom_18529">
+            <Point id="geom_2429">
                 <coordinates>-71.2167,-34.9664,225</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18549">
+        <Placemark id="feat_2435">
             <name>360011</name>
             <description>Bernardo O'Higgins Chillan Ad.</description>
-            <Point id="geom_18530">
+            <Point id="geom_2430">
                 <coordinates>-72.04,-36.5872,151</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18550">
+        <Placemark id="feat_2436">
             <name>360019</name>
             <description>Carriel Sur Concepcion.</description>
-            <Point id="geom_18531">
+            <Point id="geom_2431">
                 <coordinates>-73.0622,-36.7792,12</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18551">
+        <Placemark id="feat_2437">
             <name>380013</name>
             <description>Maquehue Temuco Ad.</description>
-            <Point id="geom_18532">
+            <Point id="geom_2432">
                 <coordinates>-72.6369,-38.77,92</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18552">
+        <Placemark id="feat_2438">
             <name>390006</name>
             <description>Pichoy Valdivia Ad.</description>
-            <Point id="geom_18533">
+            <Point id="geom_2433">
                 <coordinates>-73.0808,-39.6506,21</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18553">
+        <Placemark id="feat_2439">
             <name>400009</name>
             <description>Canal Bajo Osorno Ad.</description>
-            <Point id="geom_18534">
+            <Point id="geom_2434">
                 <coordinates>-73.0608,-40.605,61</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18554">
+        <Placemark id="feat_2440">
             <name>410005</name>
             <description>El Tepual Puerto Montt Ap.</description>
-            <Point id="geom_18535">
+            <Point id="geom_2435">
                 <coordinates>-73.0978,-41.435,85</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18555">
+        <Placemark id="feat_2441">
             <name>450001</name>
             <description>Puerto Aysen Ad.</description>
-            <Point id="geom_18536">
+            <Point id="geom_2436">
                 <coordinates>-72.6639,-45.3961,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18556">
+        <Placemark id="feat_2442">
             <name>450004</name>
             <description>Teniente Vidal Coyhaique Ad.</description>
-            <Point id="geom_18537">
+            <Point id="geom_2437">
                 <coordinates>-72.1086,-45.5939,310</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18557">
+        <Placemark id="feat_2443">
             <name>450005</name>
             <description>Balmaceda Ad.</description>
-            <Point id="geom_18538">
+            <Point id="geom_2438">
                 <coordinates>-71.6942,-45.9128,517</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18558">
+        <Placemark id="feat_2444">
             <name>460001</name>
             <description>Chile Chico Ad.</description>
-            <Point id="geom_18539">
+            <Point id="geom_2439">
                 <coordinates>-71.6928,-46.5808,306</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18559">
+        <Placemark id="feat_2445">
             <name>470001</name>
             <description>Lord Cochrane Ad.</description>
-            <Point id="geom_18540">
+            <Point id="geom_2440">
                 <coordinates>-72.5864,-47.2439,204</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18560">
+        <Placemark id="feat_2446">
             <name>520006</name>
             <description>Punta Arenas</description>
-            <Point id="geom_18541">
+            <Point id="geom_2441">
                 <coordinates>-70.845,-53.0033,38</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18561">
+        <Placemark id="feat_2447">
             <name>550001</name>
             <description>Guardia Marina Zanartu Pto Williams Ad.</description>
-            <Point id="geom_18542">
+            <Point id="geom_2442">
                 <coordinates>-67.6156,-54.9317,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18562">
+        <Placemark id="feat_2448">
             <name>950001</name>
             <description>Eduardo Frei Montalva Antartica</description>
-            <Point id="geom_18543">
+            <Point id="geom_2443">
                 <coordinates>-58.9642,-62.1997,1</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18563">
+        <Placemark id="feat_2449">
             <name>220002</name>
             <description>El Loa Calama Ad.</description>
-            <Point id="geom_18544">
+            <Point id="geom_2444">
                 <coordinates>-69.9044,-22.4953,2293</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18564">
+        <Placemark id="feat_2450">
             <name>270001</name>
             <description>Mataveri Isla De Pascua Ap.</description>
-            <Point id="geom_18545">
+            <Point id="geom_2445">
                 <coordinates>-109.427,-27.1606,48</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18565">
+        <Placemark id="feat_2451">
             <name>330021</name>
             <description>Pudahuel Santiago</description>
-            <Point id="geom_18546">
+            <Point id="geom_2446">
                 <coordinates>-70.7944,-33.3919,482</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18566">
+        <Placemark id="feat_2452">
             <name>330019</name>
             <description>Eulogio Sanchez Tobalaba Ad.</description>
-            <Point id="geom_18547">
+            <Point id="geom_2447">
                 <coordinates>-70.5478,-33.4544,650</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18567">
+        <Placemark id="feat_2453">
             <name>330031</name>
             <description>Juan Fernandez Estacion Meteorologica</description>
-            <Point id="geom_18548">
+            <Point id="geom_2448">
                 <coordinates>-78.835,-33.6367,35</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18568">
+        <Placemark id="feat_2454">
             <name>330030</name>
             <description>Santo Domingo Ad.</description>
-            <Point id="geom_18549">
+            <Point id="geom_2449">
                 <coordinates>-71.6142,-33.655,75</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18569">
+        <Placemark id="feat_2455">
             <name>370033</name>
             <description>Maria Dolores Los Angeles Ad.</description>
-            <Point id="geom_18550">
+            <Point id="geom_2450">
                 <coordinates>-72.4225,-37.4028,120</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18570">
+        <Placemark id="feat_2456">
             <name>420004</name>
             <description>Chaiten Ad.</description>
-            <Point id="geom_18551">
+            <Point id="geom_2451">
                 <coordinates>-72.7008,-42.9303,10</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18571">
+        <Placemark id="feat_2457">
             <name>430002</name>
             <description>Futaleufu Ad.</description>
-            <Point id="geom_18552">
+            <Point id="geom_2452">
                 <coordinates>-71.8525,-43.1889,347</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18572">
+        <Placemark id="feat_2458">
             <name>430004</name>
             <description>Alto Palenaad.</description>
-            <Point id="geom_18553">
+            <Point id="geom_2453">
                 <coordinates>-71.8053,-43.6117,281</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18573">
+        <Placemark id="feat_2459">
             <name>510005</name>
             <description>Teniente Gallardo Puerto Natales Ad.</description>
-            <Point id="geom_18554">
+            <Point id="geom_2454">
                 <coordinates>-72.5289,-51.6672,69</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_18574">
+        <Placemark id="feat_2460">
             <name>530005</name>
             <description>Fuentes Martinez Porvenir Ad.</description>
-            <Point id="geom_18555">
+            <Point id="geom_2455">
                 <coordinates>-70.3203,-53.1875,27</coordinates>
             </Point>
         </Placemark>

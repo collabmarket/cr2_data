@@ -37,15 +37,19 @@ def data2kml(variable):
 
 def data2geojson(variable):
     filename = os.path.join(root, 'stations-%s.geojson'%variable.var)
-    points = []
-    variable.meta.T.apply(
-                          lambda X: points.append( (float(X["longitud"]), 
-                                                    float(X["latitud"])
-                                                   )
-                                                 ) 
-                         , axis=1)
+    features = []
+    variable.meta.T.apply(lambda X: features.append( 
+            geojson.Feature(geometry=geojson.Point((
+                                            float(X["longitud"]), 
+                                            float(X["latitud"]), 
+                                            float(X["altura"]))), 
+                properties=dict(name=X["codigo_estacion"], 
+                                description=unicode(X["nombre"].decode('utf8')))
+                            )
+                                                    )
+                  , axis=1)
     with open(filename, 'w') as fp:
-        geojson.dump(geojson.MultiPoint(points), fp, sort_keys=True)
+        geojson.dump(geojson.FeatureCollection(features), fp, sort_keys=True)
 
 if __name__ == '__main__':
     make_folders()
