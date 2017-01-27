@@ -6,10 +6,11 @@
 
 ### Probar con Mybinder
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/collabmarket/data_cr2)
+Run online: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/collabmarket/data_cr2)
 
 ### Ver Notebooks con Ejemplos
 
 - [Ejemplo 1](http://nbviewer.jupyter.org/github/collabmarket/data_cr2/blob/master/Example1.ipynb)
 - [Ejemplo 2](http://nbviewer.jupyter.org/github/collabmarket/data_cr2/blob/master/Example2.ipynb)
 - [Ejemplo 3](http://nbviewer.jupyter.org/github/collabmarket/data_cr2/blob/master/Example3.ipynb)
+- [Ejemplo 4](http://nbviewer.jupyter.org/github/collabmarket/data_cr2/blob/master/Example4.ipynb)
