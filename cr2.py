@@ -33,11 +33,11 @@ class Cr2:
                                                 item['filename']+'.txt')
                 return item
     
-    def iname(self, column='nombre'):
-        return dict(zip(self.df.columns.tolist(), self.meta.T.loc[:,column].tolist()))
+    def iname(self, column='nombre', i=slice(None)):
+        return self.meta.T.loc[i,column]
     
-    def kname(self, column='nombre'):
-        return dict(zip(self.meta.T.loc[:,column].tolist(), self.df.columns.tolist()))
+    def kname(self, column='nombre', k=slice(None)):
+        return self.meta.T.reset_index().set_index(column).loc[k,'index']
     
     def get_df(self, filename):
         # Create meta and df
@@ -71,10 +71,12 @@ class Cr2:
     def plot_simple(self, istation, filename=None, figsize=(10, 7.5)):
         # Plot simple
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
-        station = unicode(self.iname()[istation].decode('utf8'))
+        station = unicode(self.iname(i=istation).decode('utf8'))
         titulo = '%s  %s'%(self.varname, station)
         plotkarg = dict(title=titulo, ax=ax, style='x')
-        self.df.loc[:,istation].dropna().plot(**plotkarg)
+        aux = self.df.loc[:,istation].dropna()
+        aux.plot(**plotkarg)
+        ax.axhline(y=aux.mean(), color='r', linestyle='--')
         ax.set_ylabel('%s %s'%(self.var, self.units))
         if filename:
             fig.savefig('%s'%(filename), bbox_inches='tight')
@@ -84,7 +86,7 @@ class Cr2:
     
     def plot_month(self, istation, filename=None, figsize=(10, 7.5)):
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
-        station = unicode(self.iname()[istation].decode('utf8'))
+        station = unicode(self.iname(i=istation).decode('utf8'))
         titulo = '%s mensual promedio %s'%(self.varname, station)
         # Lista meses del agno
         months = [pd.datetime(2000, i, 1).strftime('%B') for i in range(1,13)]
@@ -99,6 +101,7 @@ class Cr2:
             # Plot promedio cada mes
             plotkarg = dict(title=titulo, rot=45, ax=ax)
             aux.plot(**plotkarg)
+        ax.axhline(y=aux.mean(), color='r', linestyle='--')
         ax.set_ylabel('%s %s'%(self.var, self.units))
         if filename:
             fig.savefig('%s'%(filename), bbox_inches='tight')
@@ -109,7 +112,7 @@ class Cr2:
     def plot_annual(self, istation, filename=None, figsize=(10, 7.5)):
         # Plot prec anual
         fig, ax = plt.subplots(facecolor='w', figsize=figsize)
-        station = unicode(self.iname()[istation].decode('utf8'))
+        station = unicode(self.iname(i=istation).decode('utf8'))
         titulo = '%s anual %s'%(self.varname, station)
         plotkarg = dict(kind='bar', title=titulo, ax=ax)
         if self.var == 'p':
@@ -130,12 +133,12 @@ class Cr2:
 
 def plot_climograph(prec, temp, cod_station, filename=None, figsize=(10, 7.5)):
     try:
-        iprec = prec.kname('codigo_estacion')[cod_station]
+        iprec = prec.kname('codigo_estacion', cod_station)
     except KeyError:
         print("Codigo estacion no se encuentra en %s"%prec.varname)
         raise
     try:
-        itemp = temp.kname('codigo_estacion')[cod_station]
+        itemp = temp.kname('codigo_estacion', cod_station)
     except KeyError:
         print("Codigo estacion no se encuentra en %s"%temp.varname)
         raise
@@ -143,7 +146,7 @@ def plot_climograph(prec, temp, cod_station, filename=None, figsize=(10, 7.5)):
         graphtype = 'Climograma'
     else:
         graphtype = 'Grafo'
-    station = unicode(prec.iname()[iprec].decode('utf8'))
+    station = unicode(prec.iname(i=iprec).decode('utf8'))
     titulo = '%s %s %s'%(cod_station, graphtype, station)
     months = [pd.datetime(2000, i, 1).strftime('%B') for i in range(1,13)]
     df = pd.DataFrame()
@@ -172,6 +175,17 @@ def plot_climograph(prec, temp, cod_station, filename=None, figsize=(10, 7.5)):
         plt.show()
     plt.close(fig) # Fix Warning: More than 20 figures have been opened
 
+def zoom(ax, fx=.1, fy=.1):
+    yi, yf = ax.get_ylim()
+    xi, xf = ax.get_xlim()
+    dx = (xf - xi)
+    dy = (yf - yi)
+    xi -= dx * fx
+    xf += dx * fx
+    yi -= dy * fy
+    yf += dy * fy
+    ax.set_xlim([xi,xf])
+    ax.set_ylim([yi,yf])
 
 if __name__ == '__main__':
     try:
